@@ -50,14 +50,14 @@ class CrossEntropyLossFunc(nn.Module):
 
 class BERTUncased:
 
-    def __init__(self) -> None:
+    def __init__(self, num_epochs) -> None:
         self.model_name = "bert-base-uncased"
         self.tokenizer = BertTokenizer.from_pretrained(self.model_name)
 
         # 4 labels: positive, negative, neutral and conflict
         self.model = BertForSequenceClassification.from_pretrained(self.model_name, num_labels=4)
         self.optimizer = RMSprop(self.model.parameters(), lr=3e-5)
-        self.num_epochs = 10
+        self.num_epochs = num_epochs
         self.batch_size = 4
 
         if cuda.is_available():
