@@ -50,22 +50,14 @@ class CrossEntropyLossFunc(nn.Module):
 
 class BERTUncased:
 
-<<<<<<< HEAD
-    def __init__(self, num_epochs) -> None:
-=======
     def __init__(self) -> None:
->>>>>>> fbd3a5a (add code)
         self.model_name = "bert-base-uncased"
         self.tokenizer = BertTokenizer.from_pretrained(self.model_name)
 
         # 4 labels: positive, negative, neutral and conflict
         self.model = BertForSequenceClassification.from_pretrained(self.model_name, num_labels=4)
         self.optimizer = RMSprop(self.model.parameters(), lr=3e-5)
-<<<<<<< HEAD
-        self.num_epochs = num_epochs
-=======
         self.num_epochs = 10
->>>>>>> fbd3a5a (add code)
         self.batch_size = 4
 
         if cuda.is_available():
@@ -139,15 +131,6 @@ class BERTUncased:
                 true_labels.extend(labels.tolist())
 
         label_map = {0: 'negative', 1: 'positive', 2: 'neutral', 3: 'conflict'}
-<<<<<<< HEAD
-        # get classification report
-        out_data = pd.DataFrame(dataset)
-        predicted_labels = [label_map[label] for label in predicted_labels]
-        out_data['y_pred'] = predicted_labels
-        true_labels = [label_map[label] for label in true_labels]
-        return out_data, classification_report(true_labels, predicted_labels)
-=======
         predicted_labels = [label_map[label] for label in predicted_labels]
         true_labels = [label_map[label] for label in true_labels]
         return classification_report(true_labels, predicted_labels)
->>>>>>> fbd3a5a (add code)
