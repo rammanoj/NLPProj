@@ -35,9 +35,15 @@ class Logistic:
         X_test = test_data[['input_text', 'aspect']]
         y_true = np.array([self.aspect_numb[i] for i in list(test_data.polarity)])
         y_pred =self.model.predict(X_test)
+<<<<<<< HEAD
         label_map = {0: 'negative', 1: 'positive', 2: 'neutral', 3: 'conflict'}
 
         # get classification report
         out_data = test_data.copy(deep=True)
         out_data['y_pred'] = [label_map[label] for label in y_pred]
         return out_data, classification_report(y_true, y_pred)
+=======
+
+        # # get classification report
+        return classification_report(y_true, y_pred)
+>>>>>>> fbd3a5a (add code)
