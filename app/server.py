@@ -2,6 +2,7 @@ import http.server
 import socketserver
 import json
 <<<<<<< HEAD
+<<<<<<< HEAD
 import pickle
 
 PORT = 8081
@@ -18,11 +19,27 @@ class MyHandler(http.server.BaseHTTPRequestHandler):
         self.end_headers()
 
 =======
+=======
+import pickle
+>>>>>>> aa4915b (Modified slides, started demo interface)
 
 PORT = 8081
 
+model_file = "fill this in!"
+trained_model = pickle.load(model_file)
+
 class MyHandler(http.server.BaseHTTPRequestHandler):
+<<<<<<< HEAD
 >>>>>>> 9609b04 (added more presentation stuff)
+=======
+    def do_OPTIONS(self):
+        self.send_response(200)
+        self.send_header('Access-Control-Allow-Origin', 'http://localhost:8000')
+        self.send_header('Access-Control-Allow-Methods', 'POST, OPTIONS')
+        self.send_header('Access-Control-Allow-Headers', 'Content-Type')
+        self.end_headers()
+
+>>>>>>> aa4915b (Modified slides, started demo interface)
     def do_POST(self):
         content_length = int(self.headers['Content-Length'])
         post_data = self.rfile.read(content_length)
@@ -32,9 +49,13 @@ class MyHandler(http.server.BaseHTTPRequestHandler):
         self.send_response(200)
         self.send_header('Content-type', 'application/json')
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.send_header('Access-Control-Allow-Origin', 'http://localhost:8000')
 =======
 >>>>>>> 9609b04 (added more presentation stuff)
+=======
+        self.send_header('Access-Control-Allow-Origin', 'http://localhost:8000')
+>>>>>>> aa4915b (Modified slides, started demo interface)
         self.end_headers()
 
         response_data = {'message': 'Received POST request', 'data': post_data_dict}
@@ -53,9 +74,13 @@ class MyHandler(http.server.BaseHTTPRequestHandler):
             self.wfile.write(b"404 - Not Found")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 9609b04 (added more presentation stuff)
+=======
+
+>>>>>>> aa4915b (Modified slides, started demo interface)
 Handler = MyHandler
 
 with socketserver.TCPServer(("", PORT), Handler) as httpd:
