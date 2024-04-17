@@ -1,0 +1,744 @@
+,input_text,aspect,polarity,y_pred
+0,forget rush wait noise isnt actually bad mean please goes steakhouse coddled romantic,ambience,conflict,0
+1,type place run old friends late raucus dinner,anecdotesmiscellaneous,positive,1
+2,dont look nose like,anecdotesmiscellaneous,negative,0
+3,tuk tuk one rare choices go brooklyn,anecdotesmiscellaneous,positive,1
+4,great food great prices great service,service,positive,1
+5,compared shabu restaurants around town places wins handsdown,anecdotesmiscellaneous,positive,1
+6,service attentive without overbearing dish tried wonderful spring rolls cod pineapple tempura,service,positive,1
+7,dinner ok nothing would,food,negative,2
+8,great food good size menu great service unpretensious setting,service,positive,1
+9,ive living columbia university area about 10 years 3 kids teens,anecdotesmiscellaneous,neutral,1
+10,positive wait staff prompt knowledgable likeable,service,positive,1
+11,place great bargain,price,positive,1
+12,enjoyed food highly disappointed poor service waiter not quite competent slow service lack remorse,food,positive,0
+13,spicy tuna roll huge probably best ive price range,price,positive,1
+14,food asianair fusion,food,neutral,1
+15,scallion pancakes fried dumplings nothing ordinary,food,neutral,1
+16,first time writing review restaurant food service excellent,anecdotesmiscellaneous,positive,1
+17,steak au poivre one worst ive,food,negative,1
+18,im not picky actually gross,food,negative,0
+19,everything looks great drinks decor food even people,food,positive,1
+20,place always very crowded popular,ambience,positive,1
+21,excellent place relax food one best city new york,ambience,positive,1
+22,filet mignon garlic mash,food,neutral,1
+23,food came wrong waiter no found wine showed end meal,food,negative,0
+24,octopus eaters floored octopus salad,food,positive,1
+25,service mediocre lack air conditioning made less comfortable meal,service,neutral,0
+26,place beautiful bar scene seems happening,ambience,positive,1
+27,ordered smoked salmon roe appetizer flavor,food,negative,1
+28,strong scents coming left right negatively affected taste buds,anecdotesmiscellaneous,negative,1
+29,freshest best variety fastest delivery,service,positive,1
+30,dont mind presliced low quality fish unfriendly staff sushi chef looks like miserable place,food,negative,1
+31,thought prelude evening like,anecdotesmiscellaneous,neutral,1
+32,bread lamb chops meal quite good however,food,positive,1
+33,costs 2 extra turn regular roll insideout roll roll triples size thats not rice,food,neutral,1
+34,best italian food ever italian means alot,food,positive,1
+35,kamasutra bombay cosmopolitan excellent tipsy no time,food,positive,1
+36,time food quality decreased substantially lot less crowded used service must definitely part reason,service,negative,0
+37,recieved prompt service smile,service,positive,1
+38,however go ambience consider food companion trip across world,food,negative,1
+39,theres something smooth about sipping sake upper east side style,anecdotesmiscellaneous,positive,1
+40,seats uncomfortable sitting wall wooden benches,ambience,negative,0
+41,overall impressed return great qpr quality price ratio,anecdotesmiscellaneous,positive,1
+42,nice place relax conversation,ambience,positive,1
+43,dishes offered unique very tasty fresh lamb sausages sardines biscuits large whole shrimp amazing pistachio ice cream best freshest ive ever,food,positive,1
+44,went last night 2 year anniversery wasnt impressed,anecdotesmiscellaneous,negative,1
+45,great neighborhood joint,anecdotesmiscellaneous,positive,1
+46,like sakagura feel much youd better try yokocho,anecdotesmiscellaneous,neutral,1
+47,dont mind noise go chart house,ambience,conflict,0
+48,jackel hideof restaurants ues,anecdotesmiscellaneous,neutral,1
+49,food expensive worth every bite,food,positive,1
+50,service very friendly,service,positive,1
+51,also great job restaurant week,anecdotesmiscellaneous,positive,1
+52,not mayonnaise forgot toast left ingredients ie cheese omelet hot temperatures bacon cooked crumbled plate touched,food,negative,0
+53,delicate thin crust takeout pies get soggy boxes,food,negative,1
+54,boyfriend recently early dinner artisanal satisfied experience,anecdotesmiscellaneous,positive,1
+55,flavors robust subtle,food,positive,1
+56,completely hooked place ridiculous,anecdotesmiscellaneous,positive,0
+57,husband couple times time sat sushi bar chef yoshi ordered everything ala carte,anecdotesmiscellaneous,neutral,1
+58,prices ambience especially great considering west village,price,positive,1
+59,interior,ambience,negative,1
+60,love pongsri 48th compared suan slow service overpriced,price,negative,1
+61,ummmthe beer cold,food,positive,1
+62,costs 2 extra turn regular roll insideout roll roll triples size thats not rice,price,negative,0
+63,taj mahal offeres gret value great food,price,positive,1
+64,no dress codes no attitudes plenty comfort companionship great place relax always busy midtown,ambience,positive,1
+65,food delicious beautifully prepared along friendly personable service,service,positive,1
+66,id highly recommend special occasion provides intimate setting nice service,ambience,positive,1
+67,no free drink,price,negative,1
+68,opted pasta dish served timely fresh,food,positive,1
+69,bad food wasnt heritage,food,negative,1
+70,seafood craving checked citysearch chose go fish based previous review citysearch info,anecdotesmiscellaneous,neutral,1
+71,get ripped free box wine,food,positive,1
+72,though service could better possibly due one very large group house very cordial warm general clientele,ambience,conflict,1
+73,joya used cool spot decent food colorful not relaxed atmosphere,ambience,positive,1
+74,food delicious beautifully prepared along friendly personable service,food,positive,1
+75,visited thailand quite expert cuisine,food,positive,1
+76,threw fiances surprise 30th birthday dinner couldnt happier,anecdotesmiscellaneous,positive,1
+77,food wonderful tasty filling service professional friendly,food,positive,1
+78,finally seated waitress came twice1 order 2for check,service,negative,0
+79,staff very attentive ambience lovely food superb,ambience,positive,1
+80,service wine selection ambiance outstanding deserve recognition,service,positive,1
+81,would recommend perfect looking place close grand central,anecdotesmiscellaneous,positive,1
+82,nicky nose bar treat,service,positive,1
+83,food delicious atmosphere relaxed adopted plate 347 secret second,food,positive,1
+84,food average midtown sligtly better heartland breweries city,food,positive,1
+85,love atmorphere peep,ambience,positive,1
+86,overall solid restaurant less 40pp including wine solid deal well,price,positive,1
+87,wine selection glass bottle wonderful always recommend friends make reservation theyre going town,food,positive,1
+88,planet thai great,anecdotesmiscellaneous,positive,1
+89,very particular about sushi please every choice included ceviche mix special crab dumplings assorted sashimi sushi rolls two types sake banana tempura,food,positive,1
+90,ive naples 45 dinner twice,anecdotesmiscellaneous,neutral,1
+91,south arent good delis area watching foods across america pbs found about katzs deli,anecdotesmiscellaneous,neutral,1
+92,area sadly lacking decent thai food one best spots,food,positive,1
+93,staff courteous friendly,service,positive,1
+94,ate back patio worth cool music hear well,ambience,positive,1
+95,place get yummy authentic japanese comfort food,food,positive,1
+96,although warned dinner menu sit take prices different,price,neutral,1
+97,good selection wines ranging affordable high end,food,positive,1
+98,prices nothing special portions huge,price,positive,1
+99,first time writing review restaurant food service excellent,service,positive,1
+100,bar another bad idea,food,negative,1
+101,best dish noriwrapped tuna,food,positive,1
+102,outstanding bagels get pay,price,negative,1
+103,little place cute interior decor affordable city prices,ambience,positive,1
+104,seems like place locals like people working liked,anecdotesmiscellaneous,positive,1
+105,food pretty tradional hot good large portions,food,positive,1
+106,alain ducasse best everything mean everything excelenti,anecdotesmiscellaneous,positive,1
+107,staff very attentive almost always get table,service,positive,1
+108,160 2 filets 2 sides appetizer drinks,food,neutral,1
+109,waiters slow sweet,service,conflict,1
+110,oh yes lie phone claiming seating garden course seats not available,service,negative,0
+111,want roast duck pork chicken rice ginger try,food,positive,1
+112,food fresh delicious reasonably priced,food,positive,1
+113,quaint romantic trattoria top manhattan restaurant list,anecdotesmiscellaneous,positive,1
+114,look dont know people wrote reviews ever decent place please try someother places,anecdotesmiscellaneous,neutral,1
+115,food yummy especially cookedtoperfection mussels spicy tomato sauce shoestring crispy fries,food,positive,1
+116,blond wood decor very soothing premium sake excellent service great,service,positive,1
+117,not would not recommend jimmys restaurants friends would strongly suggest go anywhere,anecdotesmiscellaneous,negative,0
+118,sapphire indian restaurant go im nyc,anecdotesmiscellaneous,positive,1
+119,plain simple bad thai food,food,negative,1
+120,tables crammed way close menu typical italian restaurant wine list simply overpriced,price,negative,0
+121,ambiance relaxed stylish,ambience,positive,1
+122,dont mind presliced low quality fish unfriendly staff sushi chef looks like miserable place,service,negative,0
+123,staff little bistro very friendly never experienced incompetency,service,conflict,1
+124,could get much better dining experience amount money lot french bistros,anecdotesmiscellaneous,negative,1
+125,calzones horrific bad vomitinducing yuck,food,negative,1
+126,taj vegetarians rejoiceall dishes manna heaven,food,positive,1
+127,great food lts one person eat,food,positive,1
+128,ignore trendy wannabes,anecdotesmiscellaneous,negative,1
+129,little place cute interior decor affordable city prices,price,positive,1
+130,chance joke,anecdotesmiscellaneous,negative,1
+131,definitely special affordable,anecdotesmiscellaneous,positive,1
+132,dont know about guys go somewhere eat go food not atmosphere,anecdotesmiscellaneous,neutral,0
+133,eaten shabu tatsu least 5 times always want go back,anecdotesmiscellaneous,positive,0
+134,sake martini wonderful,food,positive,1
+135,place welloiled machine know theyre,anecdotesmiscellaneous,positive,1
+136,unbelievable,anecdotesmiscellaneous,positive,1
+137,not curry slurry crap regular run mill food,food,neutral,1
+138,know live nearby,anecdotesmiscellaneous,neutral,1
+139,enjoy,anecdotesmiscellaneous,positive,1
+140,haru serves very fresh fish trendy modern ambiance prime location park avenue south friendly service,service,positive,1
+141,ive pizza times caprese salad appetizer,anecdotesmiscellaneous,neutral,1
+142,many times food good consistent,food,positive,1
+143,20 eat sushi not beaten,price,positive,0
+144,white bean brushetta start incredible pasta phenomenal,food,positive,1
+145,wines glass great accompaniment eat like king wine 30,food,positive,1
+146,make sure try place often,anecdotesmiscellaneous,positive,1
+147,service bit slow,service,negative,0
+148,figured never argentinian pizza grabbed lunch sharing large pelligrino pizza two specials one goat cheese blue cheese excellent,food,positive,1
+149,want nice enjoyable meal montparnasse go early pretheater prixfixe,price,positive,1
+150,yeah sometimes service slow,service,negative,1
+151,catch charged extra anything leave plate dont greedy pig,price,negative,0
+152,money could easily better spent elsewhere anywhere,anecdotesmiscellaneous,negative,1
+153,go,anecdotesmiscellaneous,positive,1
+154,spice sleek modern cool menu not hurt wallet,ambience,positive,1
+155,tried simple dish spinach ravioli light oil garlic sauce actually faired better nyc italian joints ive tried similar dishes,food,positive,1
+156,lunch came pickels slaw no extra charge,price,positive,0
+157,waitress seems concerned looking good actually waitressing,service,negative,1
+158,food good certainly no il mulino service horrendous,food,positive,1
+159,asked seltzer lime no ice,food,neutral,1
+160,sometimes get bad food bad service sometimes get good good bad service,service,negative,1
+161,must dosa lovers,food,positive,1
+162,spicy tuna roll huge probably best ive price range,food,positive,1
+163,amazed poor reviews find place standout italian area flooded italian great prices great atmosphere good service wonderful wine list,food,positive,1
+164,sushi wasnt anything spectacular price,food,neutral,1
+165,personal pans perfect size hungry nights,food,positive,1
+166,blond wood decor very soothing premium sake excellent service great,ambience,positive,1
+167,owner very friendly great guy go try pizza youll like,service,positive,1
+168,lazy saturday night ended going,anecdotesmiscellaneous,neutral,1
+169,bon appettite,anecdotesmiscellaneous,positive,1
+170,waiter actually poured water hand walked away,service,negative,0
+171,big wong gets big ups fine establishment,ambience,positive,1
+172,super friendly knowledgable staff fabulous bistro fare wonderful jazz brunch great live jazz chilaquiles awesome,ambience,positive,1
+173,great indian food service incredible,service,positive,1
+174,food very expensive spent 160 lunch two extremely tasty,price,negative,1
+175,1 small piece,price,negative,0
+176,freshest best variety fastest delivery,food,positive,1
+177,village one places scores fronts,anecdotesmiscellaneous,positive,1
+178,recommend ordering weeknight,anecdotesmiscellaneous,positive,1
+179,even indian friend couldnt believe good tasty everything,food,positive,1
+180,wasnt icing cake tiramisu resembled nothing ever,food,negative,1
+181,food delicious not come empty stomach,food,conflict,1
+182,even though good seafood prices high,food,positive,1
+183,little crowded bit overpriced atmosphere filled energy beautiful people course food surprising good,food,positive,1
+184,loved everythig about itespecially shows actors,ambience,positive,1
+185,service superb treat like family,service,positive,1
+186,sell special sushi everything topping sauce etc,food,positive,1
+187,food very good not very thai,food,conflict,1
+188,much time seems like not care about,service,negative,0
+189,good spreads great beverage selections bagels really tasty,food,positive,1
+190,service attentive yet unimposing food far better many notorious restaurants midtown wine list extensive well priced,service,positive,1
+191,ordered desserts drinks no refills offered,service,negative,0
+192,im going back,anecdotesmiscellaneous,positive,1
+193,restuarant not large seems several round tables accomodate large groups hoping save buck eat authentic taiwanese,food,positive,1
+194,theyre rude times not very friendly,service,negative,0
+195,20 entree range not overly expensive new york city definitely better food range sapphire despite lovely atmosphere likely not restaurant return,ambience,positive,0
+196,nha trang notorious utter lack comfort decor horribly slow wait staff horribly quick meals one best vietnamese restaurants ive ever pho delicious comes very fresh vegtables,service,negative,1
+197,decor nice minimalist food simple yet very well presented cooked wine list matches food very well,food,positive,1
+198,longtime patron mamouns always figured found best late night food spot city,anecdotesmiscellaneous,positive,1
+199,sushi seemed pretty fresh adequately proportioned,food,positive,1
+200,really enjoyed shows put actors,ambience,positive,1
+201,like others said dont expect restaurant make nite romantic yes busy restaurant may require wait,service,negative,0
+202,try hot dogs theyre snappy delicious,food,positive,1
+203,overall oh ya even though waiting deff worth,anecdotesmiscellaneous,positive,0
+204,little way dont live neighborhood definitely worth trip wherever,anecdotesmiscellaneous,conflict,1
+205,back,anecdotesmiscellaneous,positive,1
+206,went boyfriend another couple,anecdotesmiscellaneous,neutral,1
+207,great price food service,price,positive,1
+208,catch charged extra anything leave plate dont greedy pig,anecdotesmiscellaneous,negative,1
+209,food usually very good though ocasionally wondered about freshmess raw vegatables side orders,food,conflict,1
+210,food great service ok,service,neutral,1
+211,bagels outstanding taste terrific texture chewy yet not gummy,food,positive,1
+212,waitress suggested glasses wine went very well food,food,positive,1
+213,acceptable prices,price,positive,1
+214,food consistant years never lets,food,positive,1
+215,meat dishes adorn selections although theres still large number vegetarianfriendly choices,food,neutral,1
+216,far favorite restaurant nyc wish affordable could go often,price,negative,1
+217,service little scatty times forgiven food arrives,service,negative,1
+218,joes pizza used best slice pizzeria opened,anecdotesmiscellaneous,positive,1
+219,volare virgins weekly regulars everyone gets treated cant ask service friendly,service,positive,1
+220,cater american palates like hot let know willing oblige,food,positive,1
+221,loving bringing friends every chance get,anecdotesmiscellaneous,positive,1
+222,wonderful meal naples 45 month ago visit nyc,food,positive,1
+223,enter feel like entered moms kitchen,ambience,positive,1
+224,nice people working review food,food,neutral,1
+225,careful portions theyre huge,food,positive,1
+226,food amazing,food,positive,1
+227,wouldnt recomend dinner,anecdotesmiscellaneous,negative,1
+228,fans halfprice saturday night option inedible squid recent visit,price,positive,0
+229,food spicy delicious,food,positive,1
+230,place months old perhaps queens biggest secret,anecdotesmiscellaneous,positive,1
+231,service excellent food delicious,food,positive,1
+232,staffs not friendly taste covers,food,positive,1
+233,thoroughly enjoyed food annoying scream across table conversation,food,positive,1
+234,would rather tried terrace sky water club price,price,negative,0
+235,not pretentious very economical,price,positive,0
+236,quality food excellent price cheap stick pork fish chicken lamb vegetables,food,positive,1
+237,want piece beef head,food,positive,1
+238,6 much tasty food fresh continually refilled,price,positive,1
+239,people waiting,service,neutral,0
+240,no refills fountain drinks though,food,negative,0
+241,came crowded saturday night seated right away despite 15 minutes late reservation,service,positive,0
+242,waiters not attentive except bill turned table finished,service,negative,0
+243,bring party ten every week,anecdotesmiscellaneous,neutral,1
+244,authentic bistro,anecdotesmiscellaneous,positive,1
+245,agree previous reviewer,anecdotesmiscellaneous,neutral,1
+246,couldnt carry conversation routinely interrupted waitress servants asking us order hinting taking much time amazing sat,service,negative,0
+247,wine list extensive impressive,food,positive,1
+248,cant wait go back,anecdotesmiscellaneous,positive,1
+249,dinner took almost 4 hours without lag time,anecdotesmiscellaneous,negative,1
+250,raining figured not,anecdotesmiscellaneous,neutral,0
+251,service fast friendly food very tasty best hot sauce add meals,service,positive,1
+252,service decent not smooth would expect place prices reputation,service,conflict,0
+253,hand not fooled easily find hundreds restaurants give service ambiance par alain ducasse food outshine presentaion taste choice quality quantity,food,negative,1
+254,highly recommended,anecdotesmiscellaneous,positive,1
+255,maybe tomorrow,anecdotesmiscellaneous,neutral,1
+256,must give yon yon stars,anecdotesmiscellaneous,positive,1
+257,located end magnificent block,ambience,positive,1
+258,love yuka,anecdotesmiscellaneous,positive,1
+259,service great takeout good,food,positive,1
+260,not enough wines glass either,food,negative,1
+261,not recommend lunch specials tasts regular chinese restaurant,food,negative,1
+262,yes prices high felt worth,price,conflict,0
+263,little toninos awesome favorite delivery place kennsington honestly best gnochi ever,food,positive,1
+264,eat deal truly amazing,price,positive,1
+265,youre looking place sit drink conversations friends go sweetntart order hongkong styled milk tea tapioca pearls hot,food,positive,1
+266,entire dining experience wonderful,anecdotesmiscellaneous,positive,1
+267,raga stands interesting fusion french indian cooking,food,positive,1
+268,night 30 three course meal everything delicious could licked plate clean would,food,positive,1
+269,enjoyed everything ever gotten fish fresh always prepared great way,food,positive,1
+270,inhouse lady dj saturday nights outrageously good taste music moreover takes requests,ambience,positive,1
+271,right l brooklyn nice cozy place good pizza,food,positive,1
+272,salads delicious way begin meal,food,positive,1
+273,wouldnt even complained food least tasted good quality food crappy,food,negative,1
+274,though undoubtedly seated table seems like barely enough room no matter size party warm atomosphere worth cramped quarters youll fun forgot about tight spot youre,ambience,conflict,0
+275,ceiling amazing,ambience,positive,1
+276,recommend pad see ew pork chops tofu plates,food,positive,1
+277,friendly informative staff very attentive prompt raw bar service,service,positive,1
+278,finally raving went check one enthusiastic friends last saturday night let tell cracked,anecdotesmiscellaneous,positive,1
+279,unless eating pizzeria side place not rush place bad idea,anecdotesmiscellaneous,negative,0
+280,not greatest sushi place excellent 1995 eat,price,positive,1
+281,went inside started get excited,anecdotesmiscellaneous,positive,1
+282,sake list extensive looking purple haze wasnt listed made us upon request,food,positive,1
+283,beverages excellent dessert good,food,positive,1
+284,warning may find difficult dine japanese restaurants visit mizu,anecdotesmiscellaneous,positive,0
+285,would highly recommend,anecdotesmiscellaneous,positive,1
+286,quite liked food ambience im not quite sure really deserve michelin rating displayed prooudly window,food,conflict,1
+287,restaurant doesnt try anything except serve great food great service pleasant atmosphere,ambience,positive,1
+288,wonderful,anecdotesmiscellaneous,positive,1
+289,sushi kamikaze rolls fresh well presented,food,positive,1
+290,weve following chef lyles food around new york 15 years remaining classic innovations bistro fare made us return return,food,positive,1
+291,understand area folks need not come romantic alluring ambiance five star service featuring sommlier complicated maze captain back waiters come authentic foods tastes experiance,service,positive,1
+292,delicious food excellent service pretty atmosphere make great choice dinner 599 lunch buffet makes even better choice lunch,food,positive,1
+293,admittedly not place gigantic pieces fish overflowing plate thank goodness opinion simple elegant sushi no better place new york anywhere us,food,positive,1
+294,like spicy food get chicken vindaloo,food,positive,1
+295,terms food nothing special limited several appetizers,food,neutral,0
+296,everything delicious though gf come week sometimes get addicted,food,positive,1
+297,served warm soft fluffy interior,food,positive,1
+298,food excellent wasnt cheap though not extremely expensive either,food,positive,0
+299,plan stopping next week well,anecdotesmiscellaneous,positive,1
+300,dish favorite always get go never get tired,food,positive,1
+301,usually get dinner specials very reasonably priced very tasty,food,positive,1
+302,service fast friendly food very tasty best hot sauce add meals,food,positive,1
+303,sweet lassi excellent lamb chettinad garlic naan rasamalai forgettable,food,conflict,1
+304,menu written chalk head sounds delicious,ambience,positive,1
+305,horrible food horrible service,food,negative,0
+306,great place casual date entertain clients lunch,anecdotesmiscellaneous,positive,1
+307,everything pretty good,food,positive,1
+308,every time new york make point visit restaurant saul smith street,anecdotesmiscellaneous,positive,1
+309,place avoided,anecdotesmiscellaneous,negative,0
+310,atlhough tables opened next us asked slightly larger space left us awkardly seated,service,negative,0
+311,chef owner changed,service,neutral,0
+312,service good ambience good date group outing,ambience,positive,1
+313,head shoulders neighboors east 6 st taj mahal also very comparable food quality much overpraised underdeserving baluchis,food,positive,1
+314,realize five minutes meaningless wait may anywhere two twenty minutes may frustrating,service,negative,1
+315,dont eat unless youre starving thai food work next door,anecdotesmiscellaneous,negative,0
+316,whem asked ask detailed questions knew specials,service,negative,1
+317,food great,food,positive,1
+318,service average,service,neutral,0
+319,place greatly welcome desolate little strip prospect expressway greenwood cemetery wasteland like call sliv,anecdotesmiscellaneous,positive,0
+320,leave kids home,anecdotesmiscellaneous,neutral,1
+321,place awesome sally,anecdotesmiscellaneous,positive,1
+322,concern slighly allbusiness waitstaff order throw food rushing,service,negative,1
+323,place literal holeinthewall buried within doyers right pell st barbers alley chinatown,ambience,negative,1
+324,note not serve beer must bring,service,negative,0
+325,la rosa waltzes think best,anecdotesmiscellaneous,positive,1
+326,want casual neighborhood bistro great food excellent service place,service,positive,1
+327,number 1 place alot work order truly earn called reputation,anecdotesmiscellaneous,negative,1
+328,thai ice tea amazingly smooth yummy,food,positive,1
+329,giginos wagner park enjoyable,anecdotesmiscellaneous,positive,1
+330,think ive best meals life minnow,food,positive,1
+331,almost hesititate write review atmosphere great would hate become crowded,ambience,positive,1
+332,might business counter give order food says love,service,negative,1
+333,didnt get drink refills didnt even offer us option dessert,service,negative,0
+334,food awful atrocious actually,food,negative,0
+335,recommend meatballs caprese salad beans toast wonderful start meal,food,positive,1
+336,first time happened not like crab croquette apt ordered happy change without making no big deal,food,negative,1
+337,good crowd good outdoor seating hip japanese vibe,ambience,positive,1
+338,food very good great deal place self great,ambience,positive,1
+339,im not sure reviewers whining much,anecdotesmiscellaneous,neutral,1
+340,first took us long time find place,anecdotesmiscellaneous,negative,0
+341,svc bit rude times esp big group overall restaurant must,service,negative,0
+342,started lox mussels best ive ever ever cod trout dinner,food,positive,1
+343,great staff,service,positive,1
+344,annoying thing though fact servers seem trained drive revenue,service,negative,0
+345,not imagine better indian food city,food,positive,1
+346,money went interior decoration none went chefs,ambience,positive,1
+347,bringing whole family back next time,anecdotesmiscellaneous,positive,1
+348,ive coming child always come back taste,food,positive,1
+349,maybe say looked promising people like arteryclogging jewish deli food turns poorly run awful,service,negative,0
+350,definitely excellent date spot ambiance weekends night scene alive,ambience,positive,1
+351,160 2 filets 2 sides appetizer drinks,price,neutral,1
+352,three courses choices include excellent mussels puff pastry goat cheese salad delicious dressing hanger steak au poivre world,food,positive,1
+353,no food snobs allowed place people appreciate good food,anecdotesmiscellaneous,neutral,1
+354,waiter fine place looks nice nottryingtoohard way prices little expected food,service,positive,0
+355,overall restaurant expensive sushi favorites everything delicious,price,negative,1
+356,thaiyou not miss great restaurant,anecdotesmiscellaneous,positive,1
+357,though spider roll may look like challenge eat soft shell crab hanging roll well worth price pay,price,positive,1
+358,worried would trouble getting somehow managed short wait,service,positive,0
+359,restaurant packed first waited bar about 20 minutes seated,anecdotesmiscellaneous,neutral,0
+360,decor very simple comfortable,ambience,conflict,1
+361,authentic indian amazin prices,food,positive,1
+362,drop quickly stuff jet keep turnover,anecdotesmiscellaneous,negative,1
+363,suggest ask seated upstairs looking little cozy,anecdotesmiscellaneous,neutral,1
+364,space nice order drink surprise,anecdotesmiscellaneous,neutral,1
+365,however work dinner not long ago colleague london noticed very large waterbug ceiling,anecdotesmiscellaneous,negative,1
+366,chicken pot pie excpetiona cheeseburger huge delictable service professional wan warm,service,positive,1
+367,food great,food,positive,1
+368,baby pizzas get wish,food,neutral,1
+369,bill little high worth,price,conflict,0
+370,much better places ny better prices,anecdotesmiscellaneous,negative,1
+371,saw heating least one frozen item though im not sure dim sum dish,food,negative,1
+372,also sandwiches nearing 7 didnt come anything like chips side,price,negative,0
+373,overall impressed return great qpr quality price ratio,price,positive,1
+374,good food,food,positive,1
+375,decent thai food cute though bit dank little nolita hangout service terrible,ambience,conflict,1
+376,much grown restaurant compared rest street,ambience,neutral,1
+377,six year old loved,anecdotesmiscellaneous,positive,1
+378,staff very accomodating,service,positive,1
+379,food delicious waiter incredibly helpful attentive considering ones first hour,food,positive,1
+380,wife usually order one primi one secondi split tend offer large portions,food,positive,1
+381,ballatos consistently delicious authentic italian food,food,positive,1
+382,treated like royality,service,positive,1
+383,supertrendy theres always someone take empty seat seems customer service deemed not essence,service,positive,1
+384,very spicy not offensive,food,neutral,1
+385,really like scallops mahi mahi saffron risottoyum,food,positive,1
+386,weeks back worst customer service experience restaurant ever,service,negative,0
+387,going back very soon,anecdotesmiscellaneous,positive,1
+388,crispy chicken wasnt us though,food,negative,1
+389,generous portions,food,positive,1
+390,love pongsri 48th compared suan slow service overpriced,service,negative,1
+391,service also very good,service,positive,1
+392,less case,anecdotesmiscellaneous,positive,1
+393,nearly impossible get table ever chance go dinner not pass,anecdotesmiscellaneous,conflict,0
+394,owner staff japanese well adds entire ambiance,ambience,positive,1
+395,service excellent food excellent entire experience very cool,service,positive,1
+396,service bad food took forever come sat upper level,service,negative,1
+397,best dish thh thai spiced curry noodles shrimp dish would cost 2395 places 16,food,positive,1
+398,even though restaurant packed seated promptly even asked table upstairs no problems,service,positive,0
+399,mouth starts water merely thinking about delight restaurant,food,positive,1
+400,definite go youre used good indian restaurant food abroad,food,positive,1
+401,630 third party,anecdotesmiscellaneous,neutral,1
+402,go back sate homesick stomach cravings,anecdotesmiscellaneous,positive,1
+403,appetizers recommend shrimp fritters dumplings,food,positive,1
+404,raos probably 15 times past 3 years keeps getting better,anecdotesmiscellaneous,positive,1
+405,not nobu sure great deal definitely leave feeling satisfied full,price,positive,1
+406,would like return try menu items dont rush show,food,positive,1
+407,bagels fine little overcooked not really special bagel experience,food,conflict,1
+408,important sushi rivals best tokyo,food,positive,1
+409,nice atmosphere service very pleasant desert good,ambience,positive,1
+410,ended dinner surprisingly light flaky apple tarte tatin,food,positive,1
+411,even wine glass good,food,positive,1
+412,always great service,service,positive,1
+413,ok pizza,food,neutral,1
+414,lobster sandwich good spaghetti scallops shrimp great,food,positive,1
+415,went 3 day oyster binge fish bringing closing glad place trip ended great,anecdotesmiscellaneous,positive,1
+416,hurleys terrific,anecdotesmiscellaneous,positive,1
+417,great price food service,food,positive,1
+418,walked place eons finally went thanks girls night,anecdotesmiscellaneous,neutral,0
+419,food excellent wasnt cheap though not extremely expensive either,price,conflict,0
+420,nice people working review food,service,positive,1
+421,would like say read reviews people left thats checked,anecdotesmiscellaneous,neutral,0
+422,terrific menu full unique rolls special dishes,food,positive,1
+423,want casual neighborhood bistro great food excellent service place,food,positive,1
+424,add great service great food reasonable price beginning great evening,service,positive,1
+425,ive eating taj mahal twenty years found excellent indian eateries block indian restaurants,anecdotesmiscellaneous,positive,1
+426,okay never write doesnt seem fair balance positive negative reviews concerning green bo time speak live chinatown,anecdotesmiscellaneous,neutral,1
+427,split tasty vegetable samosa malai tikka wrap,food,positive,1
+428,conclusion culinary nightmare check given table knocking glass water,food,negative,1
+429,tuk tuk second favorite neighborhood thai place first joya,anecdotesmiscellaneous,positive,1
+430,wife going nyc years wouldnt miss roxys food expensive new york,price,conflict,1
+431,walked seemed like 200 years,anecdotesmiscellaneous,neutral,1
+432,food cheap waiters nice,price,positive,1
+433,choose go one special braised lamb shank red wine excellent,food,positive,1
+434,kind small place guess not busy might able fit group kids,ambience,conflict,0
+435,forgot sandwich didnt include plastic forks didnt include pita hummus platter,service,negative,0
+436,eating atmosphere saves desk very disappointing experience,anecdotesmiscellaneous,negative,1
+437,however service leaves bad taste mouth,service,negative,1
+438,shrimp scampi excellent antipasti plentiful,food,positive,1
+439,200 2 glasses champagne not expensive bottle wine 2 dinner drinks,price,negative,0
+440,went afternoon friend,anecdotesmiscellaneous,neutral,1
+441,food average tasty,food,positive,1
+442,location ambience ok food makes,ambience,neutral,1
+443,charmingly small leads atmoshere extremely cozy romantic even,ambience,positive,1
+444,opening two places saw flyer one yonkers restraunt banquet hall another one parsipanny new jersey,anecdotesmiscellaneous,neutral,1
+445,highly recommend anyone give place try,anecdotesmiscellaneous,positive,1
+446,isnt food must service ambience,food,positive,1
+447,since literally complete hole wall bit intimidating first get very quickly soon friendly staff welcomes dont hesitate ask help get,service,positive,0
+448,even better prices very affordable well food really good,price,positive,1
+449,obviously chinese translation place not mean big wong actually means great prosperity,anecdotesmiscellaneous,neutral,0
+450,must warn reader portions sizes very small especially appetizers plan eat full not intend order chefs special tasting menu prepare order pay appetizer 1 dish person portions not sharing main entree cold udon end meal,food,negative,0
+451,complaining about chicken dish manager came tell us no one ever complained didnt know dish supposed taste like,service,negative,0
+452,problem thatit sometimes kind affair,anecdotesmiscellaneous,neutral,1
+453,surprisingly disappointed,anecdotesmiscellaneous,negative,1
+454,sides ok incredibly salty,food,negative,1
+455,ive passed spot tons times always wanting go,anecdotesmiscellaneous,neutral,1
+456,large 20 toppings about 3,price,negative,1
+457,place always packed,anecdotesmiscellaneous,neutral,1
+458,weve never problems staff maybe weve lucky,service,positive,1
+459,terrible service bland food not mention unaccommodating managers overall experience horrible,food,negative,0
+460,amazed poor reviews find place standout italian area flooded italian great prices great atmosphere good service wonderful wine list,service,positive,1
+461,monthly basis friends get together girls night,anecdotesmiscellaneous,neutral,1
+462,really didnt know expect restaurant literally overlooks main hall grand central,anecdotesmiscellaneous,neutral,0
+463,deep fried skewers good still rare find nyc,food,positive,1
+464,went friend whim went someplace else first couldnt get table,service,negative,0
+465,nothing pleasant,anecdotesmiscellaneous,positive,1
+466,host asked appetizers group waiter gave us not ordered items not ordered,service,neutral,0
+467,wrote bad review dont understand raos about,anecdotesmiscellaneous,positive,0
+468,going volare like going favorite aunts house dinner assuming aunt great italian cook,anecdotesmiscellaneous,positive,1
+469,chicken steak seasoned cooked perfection lamb sandwhich great heartier appetites,food,positive,1
+470,found restaurant one truly values patrons,anecdotesmiscellaneous,positive,1
+471,menu limited almost dishes excellent,food,conflict,1
+472,rate home,anecdotesmiscellaneous,positive,1
+473,bread soft paratha bread unlike plain bread use calcutta stuffing tandoori styled very flavorful,food,positive,1
+474,perhaps last reviewer stated treated attitude lives parallel universe never anything perfect experience yasuda,anecdotesmiscellaneous,conflict,1
+475,fish fresh variety fish nothing ordinary,food,conflict,1
+476,may owner always smile warmly greet,service,positive,1
+477,went eat jekyll hyde restaurant friday night really enjoyed fun atmosphere good food,food,positive,1
+478,760 2 people lifetime experience,price,negative,1
+479,evaluated terms pastis simply wonderful,anecdotesmiscellaneous,positive,1
+480,would go didnt pay,price,negative,0
+481,happy hour,anecdotesmiscellaneous,neutral,1
+482,overall disappointing experience price category,anecdotesmiscellaneous,negative,0
+483,reviews accurate about crowd noise,anecdotesmiscellaneous,neutral,1
+484,park avenue expected much,anecdotesmiscellaneous,negative,1
+485,prices about 9 entree dinner even less lunch,price,positive,1
+486,food spectacular appitizers main course course desserts wow youll need no,food,positive,1
+487,incredible food warm atmosphere friendly service downtown neighborhood spot doesnt miss beat,service,positive,1
+488,incredible food warm atmosphere friendly service downtown neighborhood spot doesnt miss beat,ambience,positive,1
+489,definitely place provides best experience though alisters people walking street,anecdotesmiscellaneous,positive,1
+490,not experienced person comes thai food friend took,anecdotesmiscellaneous,neutral,0
+491,exotic salad basic ly delcious little green salad peanut sauce perfect sweet basil fried tofu,food,positive,1
+492,little pricey really hits spot sunday morning,anecdotesmiscellaneous,positive,0
+493,tuna tartare sake mushroom ravioli pinot noir chocolate sampler dessert wine 49,price,positive,1
+494,one favorite restaurants not missed,anecdotesmiscellaneous,positive,0
+495,love place everytime go,anecdotesmiscellaneous,positive,1
+496,exploring grand central didnt want eat food court,anecdotesmiscellaneous,neutral,0
+497,great food reasonable prices,price,positive,1
+498,highlight night mayonaisse side fries received one food runners not good considering bill nearly 100,price,negative,0
+499,ive frequenting tasting room since first arrived east village ive never disappointed,anecdotesmiscellaneous,positive,1
+500,nice find,anecdotesmiscellaneous,positive,1
+501,roths twice times very disappointing,anecdotesmiscellaneous,negative,1
+502,sushi average average wait service always subpar atmosphere goes nice really irritating sit area beyond kitchen acousitcs horrid everything echoes extremely loud,food,negative,1
+503,bad actually refused pay food,food,negative,0
+504,incredible food very agreable price brings back about every day authentic thai restaurant,price,positive,1
+505,however think place good hang spot,ambience,positive,1
+506,great food prices very reasonable,food,positive,1
+507,people rave about ambience,ambience,negative,1
+508,service attentive yet discreet,service,positive,1
+509,great choice cost great deal,price,positive,1
+510,probably would not go,anecdotesmiscellaneous,negative,0
+511,thai restaurant rice dinner,anecdotesmiscellaneous,negative,1
+512,main course came didnt see waiter least 40 minutes,service,negative,0
+513,menu prix fixe prepared spend least 60 per person well worth itsuperb food,food,positive,1
+514,one less manhattanite better,anecdotesmiscellaneous,neutral,1
+515,located middle chinatown,anecdotesmiscellaneous,neutral,1
+516,provided delicious dessert house,food,positive,1
+517,dim sum servings bit larger im used,food,neutral,1
+518,not small feat good french food area,food,positive,1
+519,probably much busier lunch seldom crowded dinner close downtown,ambience,neutral,1
+520,thing waiters dont wipe chin leave,service,positive,0
+521,blond wood decor very soothing premium sake excellent service great,food,positive,1
+522,food not fresh sauces bland very oily,food,negative,0
+523,go volare 1st class service terrific food,food,positive,1
+524,food usually good certainly isnt relaxing place go,food,positive,1
+525,really liked noodle dishes rice avenue compared green curry dish,food,conflict,1
+526,takes real pride food business,service,positive,1
+527,seating ok even though sometimes theres alot people,ambience,conflict,1
+528,thalia beautiful restaurant beautiful people serving food doesnt quite match,food,negative,1
+529,food staff always surprise new heights taken,service,positive,1
+530,best part experience knowing manager bubbly friendly young woman great smile truly cared about,service,positive,1
+531,delicious cooks friendly willing take moment speak shake hand,food,positive,1
+532,dim sum however very good,food,positive,1
+533,not vegetarian almost dishes great,food,positive,1
+534,friendly staff member guy bar,service,conflict,1
+535,delicious food excellent service pretty atmosphere make great choice dinner 599 lunch buffet makes even better choice lunch,price,positive,1
+536,food great good selecion wines reasonable prices,food,positive,1
+537,recently went restaurant coworkers lunch amazing time,anecdotesmiscellaneous,positive,1
+538,food good not great not worth wait another visit,service,negative,0
+539,ive dined alain ducasses restaurant monte carlo half price excellent dining experience,price,positive,1
+540,complete total bagel experience lightly toasted,anecdotesmiscellaneous,neutral,1
+541,eaten many pizza places around nyc hands worst,anecdotesmiscellaneous,negative,1
+542,everyone welcomed family,service,positive,1
+543,staff also young energeic hot,service,positive,1
+544,try mediterranean salad true experience taste buds,food,positive,1
+545,great wine list reasonably pricedsara,price,positive,1
+546,youre looking perfect traditional sushi go youre looking interesting combinations try sushi garis east side,food,positive,1
+547,last time went seated table corridor next kitchen,anecdotesmiscellaneous,negative,0
+548,kinda nosiy tables close together still beautiful place enjoy nice dinner,ambience,conflict,1
+549,desserts appealing stuffy overpriced french restaurants,food,positive,1
+550,ambiance atmosphere great food service could lot better,food,negative,1
+551,20 minutes reservation gave us time cocktails enjoy surroundings,ambience,positive,1
+552,also special order kind dumplingetc,anecdotesmiscellaneous,positive,1
+553,neighborhood means come,anecdotesmiscellaneous,positive,1
+554,dim sum delectable prices quite easy wallet,food,positive,1
+555,vt baby pizzas hope grow,anecdotesmiscellaneous,positive,1
+556,people attest spending 50 drinks new york bars hardly feeling thing drinks plentiful unique,food,conflict,1
+557,amma worst value money experienced nyc past 2 years,price,negative,0
+558,orsay without doubt one best values authentic french food nyc,food,positive,1
+559,thing moderately enjoyed grilled chicken special edamame puree,food,neutral,1
+560,great place go drink 100 kinds beer,food,positive,1
+561,please save frustration,anecdotesmiscellaneous,negative,1
+562,noodle rices dishes taste great,food,positive,1
+563,people rude bit new york,service,conflict,0
+564,man hosting promised save table party 7 sat party 2 very table saving mean boths open around,service,negative,1
+565,service little scatty times forgiven food arrives,food,positive,1
+566,food very good price better fried dumplings ive,food,positive,1
+567,spectacular caviar hospitable waitstaff felt like royalty enjoyed every second,service,positive,1
+568,restuarant not large seems several round tables accomodate large groups hoping save buck eat authentic taiwanese,price,positive,1
+569,food average including surprising tasty dishes,food,positive,1
+570,im partial gnocchi,food,positive,1
+571,great food prices very reasonable,price,positive,1
+572,dont,anecdotesmiscellaneous,negative,0
+573,convenient,anecdotesmiscellaneous,positive,1
+574,small wait shorter expected,anecdotesmiscellaneous,conflict,0
+575,great groups great date great early brunch nightcap,ambience,positive,1
+576,5 dumplings 1 not go wrong,price,positive,0
+577,whatever reason prices about twice high,price,negative,0
+578,would recommend reservations weekends though,anecdotesmiscellaneous,neutral,0
+579,youll pay least double italian restaurant city still dont compare,price,positive,0
+580,ragas romantic cozy restaurant,ambience,positive,1
+581,bartender unable tear away friends bar,service,negative,1
+582,grilled cheese home afterwards better,food,negative,1
+583,last time went waitress didnt come back taking order,service,negative,0
+584,omakase showcase technique variety serving almost 40 items bbqed spicy tuna roll wrapped notsofresh nori seems rather limp performance,food,negative,1
+585,also top meal delicious perfect slice tiramisu,food,positive,1
+586,space bit small live music jazz nights loud cramped,ambience,negative,0
+587,even get packages chutneys stock fridge,food,positive,1
+588,never disappointed red eye,anecdotesmiscellaneous,positive,1
+589,quite liked food ambience im not quite sure really deserve michelin rating displayed prooudly window,ambience,conflict,1
+590,found cold night perfect spot warm,ambience,positive,1
+591,pricey worth try least,price,negative,0
+592,place little tight cold day seating entranceway pretty drafty,ambience,negative,0
+593,calamari comes incredible sauce duck noodles yummy well,food,positive,1
+594,place not,anecdotesmiscellaneous,negative,0
+595,ordered crab cocktail soaked lime juice concoction could taste lime,food,negative,1
+596,loved place,anecdotesmiscellaneous,positive,1
+597,love th pink pony,anecdotesmiscellaneous,positive,1
+598,dozens times never failed enjoy experience,anecdotesmiscellaneous,positive,1
+599,service attentive without overbearing dish tried wonderful spring rolls cod pineapple tempura,food,positive,1
+600,yellowtail particularly good well,food,positive,1
+601,food amazing service attentive personable about ambience,ambience,positive,1
+602,staff accomodating food absolutely delicious place lovely,ambience,positive,1
+603,everyone ever come become convert returned regularly friends,anecdotesmiscellaneous,positive,1
+604,could want,anecdotesmiscellaneous,positive,0
+605,hunted around quiet romantic yet not hideously expensive restaurant stumbled across reviews la lanterna gave shot,anecdotesmiscellaneous,neutral,0
+606,among new 5th avenue restaurants offers far one best values money,price,positive,1
+607,environment romantic food horrible service pathetic gabriella lies about everything could,food,negative,1
+608,found food service value exceptional everytime,service,positive,1
+609,fluke sashimi drizzled jalapenolime olive oil fruit oil nicely highlighting fishs sweetness,food,positive,1
+610,brioche lollies party favors cute sweet touch memorable meal,food,positive,1
+611,youre hungry hours later,food,neutral,1
+612,sure everyones got favorite know sal know new york,anecdotesmiscellaneous,neutral,1
+613,place correct ambience excellent staff make feel like guest friend time,ambience,positive,1
+614,unpleasant experience restaurant,anecdotesmiscellaneous,negative,1
+615,menu isnt especially groundbreaking everything ive tried far wellexecuted tasty,food,conflict,1
+616,ambience delightful service impeccable,service,positive,1
+617,even prix fixe pricing restaurant not worth,anecdotesmiscellaneous,negative,0
+618,arrived orsay thrown back veyr good sense,anecdotesmiscellaneous,positive,1
+619,take nyc guests vts,anecdotesmiscellaneous,positive,1
+620,would definitely go back very special occasion not regular fine dining,anecdotesmiscellaneous,conflict,1
+621,dim sum soso not spectacular,food,neutral,2
+622,good music great food speedy service affordable prices,food,positive,1
+623,whenever need sushi fix mizu quality fish great service,food,positive,1
+624,really good inexpensive sushi,food,positive,1
+625,went del friscos friday night boyfriend 800 reservation,anecdotesmiscellaneous,neutral,1
+626,place get crowded recommend going 45 pm,ambience,conflict,1
+627,says murrays anything about service,service,neutral,1
+628,one east side much better one west side,anecdotesmiscellaneous,neutral,0
+629,love restaurants think using fancy expensive ingrediants makes food fine cuisine even no idea use,food,negative,1
+630,asked about certain dish prepared comparison similar thai restaurants replied not mcdonalds every place makes things differently understandable every place indeed different not need uncourteous customers downright rude,anecdotesmiscellaneous,negative,0
+631,hardly called restaurant possibly best deal manhatten 4 plate heaped rice 23 entrees,ambience,negative,1
+632,overall ingredients technique encouraged enough return lunch dinner see whether boldness flavour palette improves,food,positive,1
+633,service not consistently excellent decent,service,neutral,1
+634,great place pick cheap lunch dinner,price,positive,1
+635,couldnt reccommend godmother pizza higher,food,positive,1
+636,recently decided try location delight outdoor seating perfect since yorkie,ambience,positive,1
+637,didnt disappoint service second arrived door extremely pleasant attentive almost one server per table,service,positive,1
+638,noted crossed bill,anecdotesmiscellaneous,neutral,0
+639,excellent atmosphere delicious dishes good friendly service,ambience,positive,1
+640,steak very fatty sauce overpowering not very tasty,food,negative,1
+641,took advanatage half price sushi deal saturday well worth,price,positive,1
+642,ate first time absolutely loved,anecdotesmiscellaneous,positive,1
+643,sushi average prices anything,price,negative,0
+644,even though good seafood prices high,price,negative,0
+645,youd like nice light meal asian accent long tan good place slope,food,positive,1
+646,nice quiet location go eat good meal relax able talk very good time,food,positive,1
+647,treated attitude ever since moment stepped restaurant,service,negative,0
+648,staff horrible us,service,negative,0
+649,husband enjoyed 6 taste size portions left completely full,food,positive,1
+650,everytime go theres bunch drunk idiots making scene front,ambience,negative,1
+651,recommend garlic shrimp okra bindi anything lamb,food,positive,1
+652,back,anecdotesmiscellaneous,positive,1
+653,return try chocolate,anecdotesmiscellaneous,neutral,1
+654,went late afternoon bite size food refleshment date,anecdotesmiscellaneous,neutral,1
+655,very affordable excellent ambient,price,positive,1
+656,like food value get chinatown restaurants not place,anecdotesmiscellaneous,negative,0
+657,moderate prices,price,neutral,1
+658,weve eaten restaurant ordered many times dinner,anecdotesmiscellaneous,neutral,0
+659,solid wine list knowledgeable staff friendly owners adventurous everchanging menu keep us coming back,food,positive,1
+660,crackling calamari salad usually cheap disaster many restaurants crispy lightly dressed,food,positive,1
+661,addition food very good prices reasonable,price,positive,1
+662,ambience very calm quiet,ambience,positive,1
+663,terrible service bland food not mention unaccommodating managers overall experience horrible,service,negative,0
+664,very high expectations place made reservation couple months advance special occasion,anecdotesmiscellaneous,neutral,1
+665,even relatively inexpensive botle wine call 7000 inexpensive cost roof better average fare,price,negative,1
+666,stumbled upon gem pizza place going back frequently,anecdotesmiscellaneous,positive,1
+667,best burger village,food,positive,1
+668,food lousy sweet salty portions tiny,food,negative,0
+669,husband ordered steak medium,anecdotesmiscellaneous,neutral,1
+670,shame nice convenient place like pink pony ruined lousy service,ambience,positive,0
+671,even johns joes around corner place make name,anecdotesmiscellaneous,positive,1
+672,course reason packed food delicious,food,positive,1
+673,great chinese food nearby wu liang ye grand sichuan block away,food,positive,1
+674,iced tea,food,positive,1
+675,finally reliable chinese restaurant,anecdotesmiscellaneous,positive,0
+676,second walk heavy vault like door people anticipating arrival get sense going dining ride lifetime,ambience,positive,1
+677,20 minutes reservation gave us time cocktails enjoy surroundings,anecdotesmiscellaneous,positive,1
+678,make reservation arent going keep,service,negative,1
+679,never edamame pureed thought innovative tasty couldve used bit salt,food,positive,1
+680,stick small dishes,food,neutral,1
+681,goodness everything fish rice seaweed absolutely amazing,food,positive,1
+682,not pretentious very economical,ambience,positive,0
+683,fries yummy,food,positive,1
+684,set far small street no traffic noise,ambience,positive,0
+685,id call italian dinner,anecdotesmiscellaneous,neutral,1
+686,great food spinach corn dumplings massamman curry very friendly no nonsense service clean funky bathroom,service,positive,1
+687,wouldnt wan na live,anecdotesmiscellaneous,neutral,1
+688,order menu leave feeling like missed full experience,anecdotesmiscellaneous,negative,1
+689,pleasant surprise,anecdotesmiscellaneous,positive,1
+690,first slightly skeptical sushi restaurant middle nyc,anecdotesmiscellaneous,neutral,0
+691,search authentic nyc deli experience look no famous historic katzs deli lower east side,anecdotesmiscellaneous,positive,1
+692,tiny restaurant cozy gets certain parisian flair,ambience,neutral,1
+693,event even though bit pricey side still love restaurant definitely go back,anecdotesmiscellaneous,positive,0
+694,much like food cant bring go back,anecdotesmiscellaneous,negative,1
+695,food ok least food available,food,negative,0
+696,family would go celebrate occassion prefer smaller quiter restaurants,anecdotesmiscellaneous,neutral,1
+697,turned full service upstairs sat,anecdotesmiscellaneous,neutral,1
+698,went ino valentines,anecdotesmiscellaneous,neutral,1
+699,ive several places dim sum got worst,anecdotesmiscellaneous,negative,0
+700,prices wonderfully low,price,positive,1
+701,many good restaurants uws dont need overpriced food absurdly arrogant waitstaff dont recognize work glorified diner clumsy service management doesnt care,service,negative,0
+702,great food great decor great service,food,positive,1
+703,food drinks service clearly among best city,service,positive,1
+704,say snacking really not set proper dinner,ambience,conflict,0
+705,best ravioli ever,food,positive,1
+706,expensive well worth money,price,conflict,0
+707,people carts food dont understand dont speak english job give delicious food point,service,negative,1
+708,food good,food,positive,1
+709,jukebox plays everything italian opera strokes,ambience,neutral,1
+710,service thing good about restaurant,service,positive,1
+711,highly recommend visiting restaurant dinner drinks,food,positive,1
+712,sake collection excellent try nanbu bijin pricy,price,negative,1
+713,about food ambiance imagine dreadful listen idle engine,food,negative,1
+714,awsome pizza especially margheritta slice,food,positive,1
+715,get pay logic mind spice great place grab cheap eats drinks beautiful setting,ambience,positive,1
+716,however want great food great price dont mind decor cant beat place,food,positive,1
+717,cozy romantic atomosphere around 15 tables,ambience,positive,1
+718,fantastic place,anecdotesmiscellaneous,positive,1
+719,spreads toppings great though bit pricey,food,positive,1
+720,son loves pizza certified neapolitan pizzaria home city seattle liked nearly much differences about personal preference reflection either restaurant,anecdotesmiscellaneous,positive,1
+721,pretty place overly cute french way food insultingly horrible,ambience,positive,0
+722,horrible food horrible service,service,negative,0
+723,banana tower amazing dessert well,food,positive,1
+724,decor dark cool soothing foods presentation spectacular considering low prices,price,positive,1
+725,love pics andy warhol used frequent place painted ballatos sign window,ambience,positive,1
+726,treated us well food extremely fresh wellprepared,service,positive,1
+727,fish not fresh rice tasted old stale,food,negative,1
+728,great indian food service incredible,food,positive,1
+729,try chocolate mud cake warmed 2 scoops dulce de leche gelato,food,positive,1
+730,left one drink,anecdotesmiscellaneous,neutral,0
+731,dont ever order bacon late nite either platter sandwiches matter dont take place morning frying turns hard almost like bacos hurt molars,food,negative,0
+732,eating atmosphere saves desk very disappointing experience,ambience,positive,1
+733,reservations 9pm not seated 1015pm,anecdotesmiscellaneous,negative,0
+734,great deal 6 blue point oysters beer glass wine 8,price,positive,1
+735,looking good quality cheap eats place,price,positive,1
+736,largest freshest pieces sushi delicious,food,positive,1
+737,wanted deal crappy scene annoying customers id go manhattan,ambience,negative,1
+738,like music blasted system isnt great want pay least 100 dollar bottle minimun youll love,ambience,negative,0
+739,food always tastes fresh served promptly,food,positive,1
+740,good atmosphere combination hottest music dress code relatively strict except fridays,ambience,positive,1
+741,looking around saw room full new yorkers enjoying real meal real restaurant not clubhouse fabulous trying seen,ambience,positive,1
+742,importantly food excellent,food,positive,1
