@@ -1,61 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
-    />
 
-    <title>Aspect-Based Sentiment Analysis for Classifiying Yelp Reviews</title>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-    <link rel="stylesheet" href="dist/reset.css" />
-    <link rel="stylesheet" href="dist/reveal.css" />
-    <link rel="stylesheet" href="dist/theme/blood.css" />
-    <!-- Theme used for syntax highlighted code -->
-    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
-  </head>
-  <body>
-    <div class="reveal">
-      <div class="slides">
+  <title>Aspect-Based Sentiment Analysis for Classifiying Yelp Reviews</title>
 
-		<!--Title Slide-->
+  <link rel="stylesheet" href="dist/reset.css" />
+  <link rel="stylesheet" href="dist/reveal.css" />
+  <link rel="stylesheet" href="dist/theme/blood.css" />
+  <!-- Theme used for syntax highlighted code -->
+  <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+</head>
+
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+      <!--Title Slide-->
+      <section>
+        <div style="display: flex; align-items: center; justify-content: space-between;">
+          <img src="Yelp_Logo.svg.png" width="35%">
+          <div style="text-align: left; width: 60%;">
+            <h3>Aspect-Based Sentiment Analysis for Classifying Yelp Reviews</h3>
+            <p style="font-size:large">Anurag Arasan, Rammanoj Potla, Vaishnavee Mannivannan, Fabian Christopher</p>
+          </div>
+        </div>
+      </section>
+
+      <!--Explain the issue-->
+      <section>
         <section>
-			<div style="display: flex; align-items: center; justify-content: space-between;">
-				<img src="Yelp_Logo.svg.png" width="35%">
-				<div style="text-align: left; width: 60%;">
-					<h3>Aspect-Based Sentiment Analysis for Classifying Yelp Reviews</h3>
-					<p style="font-size:large">Anurag Arasan, Rammanoj Potla, Vaishnavee Mannivannan, Fabian Christopher</p>
-				</div>
-			</div>
+          Why?
         </section>
-
-		<!--Explain the issue-->
         <section>
-			<section>
-				Why?
-			</section>
-			<section>
-				"The food was great, but the service was terrible."
-			</section>
-		</section>
-      </div>
-    </div>
+          <img src="popeyes_yelp_review.png" />
+        </section>
+        <section>
+          <img src="wings_over_review.png" />
+        </section>
+        <section>
+          <img src="hilarious-yelp-reviews-1.jpeg" />
+        </section>
+      </section>
 
-    <script src="dist/reveal.js"></script>
-    <script src="plugin/notes/notes.js"></script>
-    <script src="plugin/markdown/markdown.js"></script>
-    <script src="plugin/highlight/highlight.js"></script>
-    <script>
-      // More info about initialization & config:
-      // - https://revealjs.com/initialization/
-      // - https://revealjs.com/config/
-      Reveal.initialize({
-        hash: true,
-		slideNumber: true,
-        // Learn about plugins: https://revealjs.com/plugins/
-        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
-      });
-    </script>
-  </body>
+      <!--Our models-->
+      <section>
+        Our models
+      </section>
+
+      <!--Our Results-->
+      <section>
+        Results
+      </section>
+
+      <!--Demo-->
+      <section>
+        <!--TODO add options for models-->
+        <p>Let's try it!</p>
+
+        <input id="demoInput" />
+        <br>
+        <button onclick="getSentiment()">Submit!</button>
+      </section>
+
+      <section>
+        Future Work and Improvements
+      </section>
+
+      <section>Thank you!</section>
+    </div>
+  </div>
+
+  <script src="dist/reveal.js"></script>
+  <script src="plugin/notes/notes.js"></script>
+  <script src="plugin/markdown/markdown.js"></script>
+  <script src="plugin/highlight/highlight.js"></script>
+  <script>
+    // More info about initialization & config:
+    // - https://revealjs.com/initialization/
+    // - https://revealjs.com/config/
+    Reveal.initialize({
+      hash: true,
+      slideNumber: true,
+      // Learn about plugins: https://revealjs.com/plugins/
+      plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+    });
+
+    function getSentiment() {
+      const query = document.getElementById('demoInput').value
+      const xhr = new XMLHttpRequest();
+      const url = "http://localhost:8081"; // URL of the server-side script to handle the request
+      var data = JSON.stringify({ name: "John", age: 30 }); // Data to be sent to the server
+
+      xhr.open("POST", url, true);
+      xhr.setRequestHeader("Content-Type", "application/json");
+
+      xhr.onreadystatechange = function () {
+        if (xhr.readyState === 4) { // When the request is complete
+          if (xhr.status === 200) { // If the request is successful
+            console.log("Response from server:", xhr.responseText);
+            document.getElementById("response").textContent = xhr.responseText; // Displaying the response on the webpage
+          } else {
+            console.error("Error:", xhr.status, xhr.statusText);
+          }
+        }
+      };
+
+      xhr.send(data);
+    }
+  </script>
+</body>
+
 </html>
