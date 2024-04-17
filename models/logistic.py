@@ -36,5 +36,7 @@ class Logistic:
         y_true = np.array([self.aspect_numb[i] for i in list(test_data.polarity)])
         y_pred =self.model.predict(X_test)
 
-        # # get classification report
-        return classification_report(y_true, y_pred)
+        # get classification report
+        out_data = test_data.copy(deep=True)
+        out_data['y_pred'] = y_pred
+        return out_data, classification_report(y_true, y_pred)
