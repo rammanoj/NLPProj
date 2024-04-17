@@ -1,6 +1,7 @@
 import http.server
 import socketserver
 import json
+<<<<<<< HEAD
 import pickle
 
 PORT = 8081
@@ -16,6 +17,12 @@ class MyHandler(http.server.BaseHTTPRequestHandler):
         self.send_header('Access-Control-Allow-Headers', 'Content-Type')
         self.end_headers()
 
+=======
+
+PORT = 8081
+
+class MyHandler(http.server.BaseHTTPRequestHandler):
+>>>>>>> 9609b04 (added more presentation stuff)
     def do_POST(self):
         content_length = int(self.headers['Content-Length'])
         post_data = self.rfile.read(content_length)
@@ -24,7 +31,10 @@ class MyHandler(http.server.BaseHTTPRequestHandler):
 
         self.send_response(200)
         self.send_header('Content-type', 'application/json')
+<<<<<<< HEAD
         self.send_header('Access-Control-Allow-Origin', 'http://localhost:8000')
+=======
+>>>>>>> 9609b04 (added more presentation stuff)
         self.end_headers()
 
         response_data = {'message': 'Received POST request', 'data': post_data_dict}
@@ -42,7 +52,10 @@ class MyHandler(http.server.BaseHTTPRequestHandler):
             self.end_headers()
             self.wfile.write(b"404 - Not Found")
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9609b04 (added more presentation stuff)
 Handler = MyHandler
 
 with socketserver.TCPServer(("", PORT), Handler) as httpd:
