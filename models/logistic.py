@@ -44,6 +44,13 @@ class Logistic:
         return out_data, classification_report(y_true, y_pred)
 =======
 
+<<<<<<< HEAD
         # # get classification report
         return classification_report(y_true, y_pred)
 >>>>>>> fbd3a5a (add code)
+=======
+        # get classification report
+        out_data = test_data.copy(deep=True)
+        out_data['y_pred'] = y_pred
+        return out_data, classification_report(y_true, y_pred)
+>>>>>>> b78bd30 (save out files to csv)

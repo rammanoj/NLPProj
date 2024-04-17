@@ -131,6 +131,9 @@ class BERTUncased:
                 true_labels.extend(labels.tolist())
 
         label_map = {0: 'negative', 1: 'positive', 2: 'neutral', 3: 'conflict'}
+        # get classification report
+        out_data = pd.DataFrame(dataset)
+        out_data['y_pred'] = predicted_labels
         predicted_labels = [label_map[label] for label in predicted_labels]
         true_labels = [label_map[label] for label in true_labels]
-        return classification_report(true_labels, predicted_labels)
+        return out_data, classification_report(true_labels, predicted_labels)
