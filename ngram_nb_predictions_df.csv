@@ -1,0 +1,408 @@
+,index,input_text,aspect,polarity,extracted_nouns,aspect_predicted,polarity_pred
+0,1221,little crowded bit overpriced atmosphere filled energy beautiful people course food surprising good,price,negative,"['food', 'atmosphere', 'bit', 'energy', 'people']",food,negative
+1,1184,drinks always welll made wine selection fairly priced,price,positive,"['wine', 'selection', 'drinks']",food,positive
+2,1338,also 15,price,negative,[],service,positive
+3,2354,big draw sushi 1995,price,positive,['sushi'],food,positive
+4,573,overall worth money,price,negative,['money'],price,negative
+5,1778,overall im still impressed place even exists prices quite decent chinatown,price,positive,"['chinatown', 'prices', 'place']",price,negative
+6,1570,actually gave 10 tip never done despite mediocre food service felt totally ripped,price,negative,"['tip', 'food', 'service']",service,positive
+7,1185,quality food little expensive,price,negative,"['food', 'quality']",food,negative
+8,2776,prices dressed atmosphere expect get,price,negative,"['prices', 'atmosphere']",price,positive
+9,2552,people attest spending 50 drinks new york bars hardly feeling thing drinks plentiful unique,price,negative,"['people', 'thing', 'bars', 'drinks']",food,negative
+10,313,charge different prices time,price,negative,"['prices', 'time']",price,negative
+11,2584,however want great food great price dont mind decor cant beat place,price,positive,"['place', 'food', 'price', 'decor']",price,positive
+12,444,want save money dont go,price,negative,['money'],price,negative
+13,90,try spicy shrimp appetizer greatest value world worth price lamb vindaloo great,price,conflict,"['lamb', 'shrimp', 'vindaloo', 'price', 'world', 'value', 'appetizer']",food,positive
+14,2606,worth prices,price,negative,['prices'],price,positive
+15,1368,food excellent considering quality food moderately priced restaurants mediocre slightly pricey well worth,price,positive,"['food', 'restaurants', 'quality']",price,negative
+16,647,check wont hurt stomach wallet,price,positive,"['stomach', 'check', 'wallet']",price,positive
+17,2122,isnt value joint,price,negative,[],price,positive
+18,1545,ate week ago found dishes average best expensive,price,negative,"['week', 'dishes']",food,negative
+19,500,prices beat quality quantity freshness taste,price,positive,"['quality', 'quantity', 'prices', 'freshness', 'taste']",price,positive
+20,2312,weird thing got bottle waitress would simply multiplied glass price x4 makes sense whatsoever,price,negative,"['sense', 'waitress', 'bottle', 'price', 'thing', 'glass']",price,negative
+21,103,menu prix fixe prepared spend least 60 per person well worth itsuperb food,price,negative,"['food', 'person']",price,negative
+22,2148,two people tip less 25 bucks,price,positive,"['people', 'bucks']",price,negative
+23,2327,spice great thai food love inexpensive appetizers,price,positive,"['appetizers', 'spice', 'food']",food,positive
+24,689,alone 100 bucks really overprice,price,negative,['bucks'],price,negative
+25,111,atmosphere great looking laid back scene inexpensive way spend weekend afternoon,price,positive,"['atmosphere', 'way', 'scene', 'weekend', 'afternoon']",ambience,positive
+26,1548,quality ingredients preparation around fair price nyc,price,positive,"['ingredients', 'price', 'quality', 'preparation']",price,positive
+27,2570,bill outragous,price,negative,['bill'],price,negative
+28,899,food okay prices mediocre,price,neutral,"['food', 'prices']",price,positive
+29,1949,definitely special affordable,price,positive,[],service,positive
+30,867,could pricey without prix fixe meal,price,negative,['meal'],price,positive
+31,772,food fresh delicious reasonably priced,price,positive,['food'],food,positive
+32,1988,excellent lunch buffet 695,price,positive,"['lunch', 'buffet']",food,positive
+33,1131,great food great prices great service,price,positive,"['food', 'prices', 'service']",service,positive
+34,2601,go pretheatre menu even greater deal,price,positive,"['pretheatre', 'menu', 'deal']",price,positive
+35,771,location prices reasonable,price,positive,"['location', 'prices']",price,positive
+36,2377,unlike places nyc sandwiches want come tripledecker get want reasonablysized portion price,price,positive,"['portion', 'price', 'tripledecker', 'sandwiches', 'places']",price,negative
+37,2011,wonder delicious meal little money,price,positive,"['money', 'meal']",food,positive
+38,61,price reasonable although service poor,price,positive,"['price', 'service']",price,positive
+39,633,simply amazing unique tasty best didnt break bank,price,positive,"['bank', 'best']",food,positive
+40,2026,must say little pricey food spectacular view,price,negative,"['food', 'view']",food,negative
+41,519,delicious food great price go cold day sit front door,price,positive,"['day', 'price', 'door']",food,positive
+42,2874,somewhat pricey heck,price,negative,[],price,negative
+43,2357,restaurant worth time effort money say least,price,negative,"['money', 'time', 'effort', 'restaurant']",price,negative
+44,2632,made title affordable restaurant great taste,price,positive,"['title', 'restaurant', 'taste']",food,positive
+45,695,baluchis solid food nice decor reasonable prices,price,positive,"['food', 'prices', 'decor']",price,positive
+46,710,rest dim sum though pricey chinatown standards worth,price,negative,"['chinatown', 'standards', 'sum']",price,negative
+47,2010,food good price better fried dumplings ive,price,positive,"['food', 'dumplings', 'price']",food,positive
+48,758,problem since paid 20 bucks dish order 5 dishes get decent taste,price,negative,"['dish', 'order', 'dishes', 'bucks', 'problem', 'taste']",price,negative
+49,737,really tasty spring rolls noodles good price though,price,positive,"['price', 'spring']",food,positive
+50,343,hand fooled easily find hundreds restaurants give service ambiance par alain ducasse food outshine presentaion taste choice quality quantity,ambience,conflict,"['restaurants', 'quality', 'hundreds', 'hand', 'quantity', 'choice', 'ambiance', 'service', 'taste']",food,positive
+51,4,finest latin women youll see life hang jimmys,ambience,positive,"['women', 'life']",ambience,positive
+52,2098,tables crammed way close menu typical italian restaurant wine list simply overpriced,ambience,negative,"['list', 'menu', 'tables', 'wine', 'restaurant']",food,positive
+53,989,place sleek modern playfull return frequently,ambience,positive,"['playfull', 'return']",ambience,positive
+54,708,place hotspot hangout drinks unique pack lot bang buck,ambience,negative,"['hangout', 'bang', 'pack', 'hotspot', 'buck', 'lot', 'place', 'drinks']",food,negative
+55,492,good dark atmosphere music nice touch,ambience,positive,"['atmosphere', 'music', 'touch']",ambience,positive
+56,1496,service good resturant clean,ambience,positive,['resturant'],service,positive
+57,833,far popular bar restaurant tables waiter bartender greatly enjoyed unobtrusive atmosphere,ambience,conflict,"['atmosphere', 'waiter', 'tables', 'restaurant', 'bar', 'bartender']",food,positive
+58,1461,sure previous reviewer lonk dined saul great neighborhood great food,ambience,positive,"['food', 'neighborhood', 'reviewer']",food,positive
+59,1932,service poor restaurant poorly lit staff attentive would rather eaten mcdonalds joint,ambience,negative,"['staff', 'mcdonalds', 'joint', 'service', 'restaurant']",service,negative
+60,2288,setting casual romantic,ambience,positive,[],ambience,positive
+61,588,dining room quietly elegant music shout refreshing,ambience,positive,"['room', 'music', 'dining']",ambience,positive
+62,2333,dont go mizu excellent service go large amounts food amiable atmosphere holeinthewall feeling place,ambience,positive,"['food', 'atmosphere', 'amounts', 'holeinthewall', 'place', 'service']",price,positive
+63,2061,delicious food great price go cold day sit front door,ambience,negative,"['day', 'price', 'door']",food,negative
+64,210,leon east village gem casual hip well prepared basic french bistro fare good specials warm lively atmosphere,ambience,positive,"['atmosphere', 'hip', 'gem', 'specials', 'bistro']",ambience,positive
+65,2119,service excellent decor great food delicious comes large portions,ambience,positive,"['food', 'portions', 'service', 'decor']",food,positive
+66,2276,single place chinatown nice neighborhood feeling like,ambience,positive,"['chinatown', 'place', 'neighborhood']",ambience,positive
+67,311,delicious food excellent service pretty atmosphere make great choice dinner 599 lunch buffet makes even better choice lunch,ambience,positive,"['food', 'atmosphere', 'buffet', 'dinner', 'choice', 'lunch', 'service']",food,positive
+68,739,one nicest outdoor restaurants ever seen nyi italy place rivals ones country,ambience,positive,"['restaurants', 'country', 'ones']",ambience,positive
+69,2419,restuarant large seems several round tables accomodate large groups hoping save buck eat authentic taiwanese,ambience,conflict,"['groups', 'tables', 'buck', 'taiwanese']",food,positive
+70,2,seating trying get maximum amount people restaurant nice neighbor dine,ambience,negative,"['people', 'seating', 'neighbor', 'amount']",service,positive
+71,752,atmosphere great,ambience,positive,['atmosphere'],ambience,positive
+72,872,great roofdeck nice group 30 somethings music kind quiet,ambience,conflict,"['somethings', 'group', 'music']",ambience,positive
+73,925,wait long dim sum dont like sharing tables typical raucous dim sum atmosphere gig sleek chinatown alternative,ambience,positive,"['atmosphere', 'alternative', 'chinatown', 'tables', 'sum']",price,positive
+74,1375,best warm vibe owner super friendly service fast,ambience,positive,"['vibe', 'service', 'owner']",service,positive
+75,2719,youre looking place sit drink conversations friends go sweetntart order hongkong styled milk tea tapioca pearls hot,ambience,positive,"['order', 'conversations', 'drink', 'sweetntart', 'friends', 'pearls', 'tapioca', 'milk', 'tea', 'place']",food,positive
+76,50,large place cute cozy,ambience,conflict,['place'],ambience,positive
+77,1000,red sliding doors may unique block cold air outside,ambience,negative,"['block', 'doors', 'air']",ambience,negative
+78,1216,entertainment great shows go dinner,ambience,positive,"['dinner', 'entertainment', 'shows']",food,positive
+79,1020,didnt reservation could sit back garden great secluded perfect nice weather,ambience,positive,"['reservation', 'garden', 'weather']",ambience,positive
+80,1817,place small cramped food fantastic,ambience,negative,['food'],food,positive
+81,1457,understand area folks need come romantic alluring ambiance five star service featuring sommlier complicated maze captain back waiters come authentic foods tastes experiance,ambience,positive,"['foods', 'waiters', 'maze', 'area', 'captain', 'ambiance', 'service', 'folks', 'star', 'experiance']",service,positive
+82,1691,place japanese ever get,ambience,positive,['place'],ambience,positive
+83,1371,website rating makes place look wonderful reality disappointing,ambience,conflict,"['rating', 'website', 'place', 'reality']",service,positive
+84,1514,whoever jazz duo point,ambience,positive,"['jazz', 'duo']",food,positive
+85,1421,first time went completely taken live jazz band atmosphere ordered lobster cobb salad,ambience,positive,"['jazz', 'atmosphere', 'time', 'salad', 'band']",food,positive
+86,561,decor charming,ambience,positive,['decor'],ambience,positive
+87,79,music best among indian restaurants visited,ambience,positive,"['restaurants', 'music']",service,positive
+88,2501,design atmosphere good,ambience,positive,"['design', 'atmosphere']",ambience,positive
+89,209,however go ambience consider food companion trip across world,ambience,positive,"['food', 'ambience', 'trip', 'companion', 'world']",food,positive
+90,1937,affordable excellent ambient,ambience,positive,['ambient'],price,positive
+91,0,decor nice casual fine dining,ambience,conflict,"['dining', 'decor']",ambience,positive
+92,582,characters really make enjoyable experience,ambience,positive,"['experience', 'characters']",service,positive
+93,1068,photos restaurant web site way better real look,ambience,negative,"['way', 'photos', 'site', 'look', 'web', 'restaurant']",service,positive
+94,2317,although place could little eye catching roomier time doesnt really matter,ambience,conflict,"['place', 'time', 'eye']",service,positive
+95,1950,odd ave b odd place attracts eclectic crowd say least,ambience,neutral,"['place', 'crowd']",ambience,positive
+96,148,could without cigar smoke,ambience,negative,"['cigar', 'smoke']",price,positive
+97,1380,great food great decor great service,ambience,positive,"['food', 'service', 'decor']",food,positive
+98,1549,aesthetics place like airport lounge,ambience,negative,"['lounge', 'place', 'aesthetics', 'airport']",ambience,positive
+99,2389,little place definitely exceeded expectations sure get lot food money,ambience,conflict,"['food', 'money', 'expectations', 'lot', 'place']",price,positive
+100,1593,food delicious atmosphere relaxed adopted plate 347 secret second,ambience,positive,"['plate', 'food', 'atmosphere', 'second']",food,positive
+101,1550,first place romantic claimed citysearchs editorial review,ambience,negative,"['place', 'review']",service,positive
+102,317,crowded loud cant even talk person next,ambience,negative,['person'],service,negative
+103,1589,filled suits though never really feel terribly comfortable,ambience,negative,['suits'],ambience,positive
+104,2790,felt though eating paris,ambience,positive,[],food,positive
+105,1982,people restaurant pretty obnoxious loud,ambience,negative,['people'],ambience,positive
+106,42,place real empty first sunday ever opened,ambience,conflict,[],ambience,negative
+107,341,anyhow able sit long wanted chat nice,ambience,positive,[],service,positive
+108,368,youre sitting main dining room spectacular handpainted high ceiling youd never know world outside,ambience,positive,"['world', 'room', 'dining', 'ceiling']",ambience,positive
+109,547,view spectacular food great,ambience,positive,['food'],food,positive
+110,1986,people eat seem typical upper east side snobs aware,ambience,negative,"['people', 'side', 'snobs']",ambience,positive
+111,1927,prices ambience especially great considering west village,ambience,positive,"['ambience', 'village', 'prices']",price,positive
+112,2641,party 7 close next front doors eating coats,ambience,negative,"['doors', 'coats', 'party']",ambience,negative
+113,1174,loud hot dark,ambience,negative,['dark'],ambience,negative
+114,1281,gf still choose eat lot diverse cocktails chill decor decent sushi,ambience,positive,"['chill', 'sushi', 'lot', 'cocktails', 'decor']",food,positive
+115,2286,course crowded cares,ambience,conflict,['course'],service,negative
+116,123,back garden sitting area pleasant see personal herb garden,ambience,positive,"['garden', 'area', 'herb']",ambience,positive
+117,2885,get zen feel without feeling rigid,ambience,positive,[],ambience,positive
+118,721,great place take outoftowners perfect watching sunset,ambience,positive,"['sunset', 'place', 'outoftowners']",ambience,positive
+119,2760,service friendly atmosphere casual,ambience,positive,"['atmosphere', 'service']",service,positive
+120,1567,food ambiance imagine dreadful listen idle engine,ambience,negative,"['ambiance', 'food', 'engine']",food,positive
+121,2486,sushi average average wait service always subpar atmosphere goes nice really irritating sit area beyond kitchen acousitcs horrid everything echoes extremely loud,ambience,conflict,"['atmosphere', 'sushi', 'area', 'sit', 'kitchen', 'wait', 'service']",ambience,negative
+122,406,ive lived nyc life never seen many waterbugs one place except really bad dream,ambience,negative,"['waterbugs', 'place', 'dream', 'life']",ambience,positive
+123,93,great sushi experience,food,positive,"['experience', 'sushi']",food,positive
+124,175,tanks chinatown restaurants display lurking myriad sadlooking marine life murky waters tanks pings clear glass healthylooking creatures yet know part dim sum lovers brunch,food,positive,"['restaurants', 'lovers', 'chinatown', 'part', 'creatures', 'display', 'waters', 'life', 'tanks', 'sum', 'glass']",ambience,negative
+125,1242,food awesome definitely try striped bass,food,positive,"['food', 'bass']",food,positive
+126,952,mango chicken cant go tell delicious presentation beatiful,food,positive,"['chicken', 'presentation']",food,positive
+127,419,constantly open catering pakistani cabbies lined crosby st theres turnover food youd expect ie surprisingly fresh,food,positive,"['catering', 'cabbies', 'turnover', 'food']",food,positive
+128,2634,coworkers stated food amazing wondered hadnt heard place,food,positive,"['coworkers', 'place', 'food']",service,positive
+129,2459,food drinks service clearly among best city,food,positive,"['food', 'city', 'service', 'drinks']",service,positive
+130,2608,husband ordered steak medium,food,neutral,"['husband', 'steak', 'medium']",food,positive
+131,2661,unlike places nyc sandwiches want come tripledecker get want reasonablysized portion price,food,conflict,"['portion', 'price', 'tripledecker', 'sandwiches', 'places']",price,positive
+132,2587,good food restaurant bit expensive great want impress date,food,positive,"['food', 'date', 'bit', 'restaurant', 'want']",food,positive
+133,1686,great food spinach corn dumplings massamman curry friendly nonsense service clean funky bathroom,food,positive,"['food', 'spinach', 'nonsense', 'bathroom', 'dumplings', 'service', 'corn']",food,positive
+134,1271,food inludes famous scrumptious bombay style chaat bhelpuri sevpuri samosa chaats well great indian appetizers,food,positive,"['appetizers', 'food', 'inludes']",food,positive
+135,1895,always fresh delicious,food,positive,[],food,positive
+136,2041,also dont plan asking favorite roll menu cant,food,negative,"['menu', 'roll']",price,positive
+137,399,food good expensive casualness,food,conflict,"['casualness', 'food']",food,positive
+138,1913,actually left hungry went across street wo hop 15 mott street good chinese food,food,positive,"['food', 'hop', 'street']",food,negative
+139,591,try cheesecake,food,positive,['cheesecake'],food,positive
+140,527,combination fresh tomato sauce fresh mozz cheese basil dough make imported flour makes one better pizzas ny,food,positive,"['sauce', 'combination', 'basil', 'pizzas', 'tomato', 'dough', 'flour']",food,positive
+141,2694,20 gets unlimited sushi high quality even took friend japan said one best sushi places us,food,positive,"['friend', 'sushi', 'quality']",service,negative
+142,2108,try tandoori salmon,food,positive,"['salmon', 'tandoori']",food,positive
+143,1810,cool place hang friends couple healthy drinks desserts,food,positive,"['place', 'friends', 'desserts', 'drinks']",food,positive
+144,2234,like saying bread comes special bakery seen buying dowtown manhathan,food,negative,"['bread', 'bakery']",food,positive
+145,227,hot dogs cold middle buns stale,food,negative,"['dogs', 'buns']",food,positive
+146,2698,found variety sashimi plate satisfying fresh yummy,food,positive,['plate'],food,positive
+147,1504,pizza garlic knots great well order quite often delivery always super quick,food,positive,"['garlic', 'order', 'delivery', 'pizza']",food,positive
+148,2710,considering price 625 lunch special dish ridiculously small,food,negative,"['dish', 'lunch', 'price']",food,positive
+149,129,pizza delicious use fresh mozzarella instead cheap frozen shredded cheese common pizzarias,food,positive,"['mozzarella', 'pizzarias', 'cheese']",food,positive
+150,658,haru serves fresh fish trendy modern ambiance prime location park avenue south friendly service,food,positive,"['park', 'fish', 'location', 'ambiance', 'avenue', 'service']",ambience,positive
+151,826,personal favorite everything bagel lox spread bagles unbeliavably good,food,positive,['bagel'],food,positive
+152,189,make best pizza ny maybe anywhere,food,positive,['pizza'],food,positive
+153,2043,pair food excellent beers tap well priced wine list,food,positive,"['food', 'wine', 'list', 'beers']",food,positive
+154,1979,visited bread bar january restaurant week pleased menu selections service,food,positive,"['bread', 'menu', 'week', 'selections', 'service', 'restaurant']",food,positive
+155,2557,crazy sake martini,food,negative,"['sake', 'martini']",food,positive
+156,512,ate thai place following reviews unhappy foods,food,negative,"['foods', 'place', 'reviews']",food,positive
+157,714,went 600 pm specifically pretheater menu 1995 roasted tomato soup chevre steak frites creme brulee marvelous,food,positive,"['steak', 'soup', 'menu', 'pm', 'tomato']",food,negative
+158,1910,delicate spices onions eggs kickass roti,food,positive,"['eggs', 'onions', 'roti', 'kickass', 'spices']",food,positive
+159,634,decor dark cool soothing foods presentation spectacular considering low prices,food,positive,"['foods', 'presentation', 'prices', 'decor']",ambience,positive
+160,787,place good potential needs significant amount work justify spending much money indian food get everywhere else,food,neutral,"['food', 'amount', 'money', 'potential', 'work']",price,negative
+161,1640,greatest sushi place excellent 1995 eat,food,neutral,"['place', 'sushi']",food,positive
+162,20,staff attentive ambience lovely food superb,food,positive,"['ambience', 'food', 'superb', 'staff']",service,positive
+163,2101,get tuna gari,food,positive,['gari'],food,positive
+164,641,quantity also good come satisfied,food,positive,['quantity'],service,positive
+165,736,eggplant delicate sweet tender,food,positive,"['eggplant', 'tender']",food,positive
+166,2703,plus wednesday nights house wine unlimited,food,positive,"['nights', 'wine', 'house']",food,positive
+167,2756,pesto pizza excellent thincrust pizza nice amount spicy italian cheese id never heard,food,positive,"['cheese', 'amount']",food,positive
+168,2670,food alright stuff good like steak dish tends dry,food,conflict,"['dish', 'food', 'steak', 'stuff']",food,positive
+169,839,ive restaurant dozen times im craving pho lemon grass chicken beef cube rice place go,food,positive,"['lemon', 'pho', 'beef', 'dozen', 'times', 'rice', 'chicken', 'grass', 'cube', 'place', 'restaurant']",food,positive
+170,1509,unique apppetizers,food,positive,['apppetizers'],ambience,positive
+171,531,someone else recommended dessert also left,food,negative,['dessert'],service,positive
+172,2739,takes real pride food business,food,positive,"['business', 'food', 'pride']",food,positive
+173,2338,steak good fish good sushi surprisingly great,food,positive,"['sushi', 'fish']",food,positive
+174,882,foods dazzling flavors overwhelm palate truly embracing beauty authentic thai cuisine,food,positive,"['beauty', 'foods', 'palate', 'flavors', 'cuisine']",food,positive
+175,1993,two people party felt like something else volare immediately obliged two great dishes regular menu,food,positive,"['people', 'menu', 'party', 'dishes']",food,positive
+176,55,first time sushi outstanding second time little bland,food,conflict,"['time', 'sushi']",food,negative
+177,1683,divine melts mouth,food,positive,['mouth'],food,positive
+178,28,portions large servers always surprise us different starter,food,positive,"['portions', 'servers', 'starter']",service,positive
+179,2821,great pizza lunch place,food,positive,"['lunch', 'place', 'pizza']",food,positive
+180,1500,highlight night mayonaisse side fries received one food runners good considering bill nearly 100,food,negative,"['food', 'bill', 'side', 'runners', 'mayonaisse', 'fries']",food,positive
+181,1452,love seafood would love place,food,positive,"['seafood', 'place']",food,positive
+182,846,ordered tuna melt came cheese made tuna sandwich,food,negative,"['tuna', 'cheese', 'sandwich', 'melt']",food,positive
+183,1955,thing wonderful food exceptional service,food,positive,"['food', 'thing', 'service']",service,positive
+184,1586,fried dumplings great,food,positive,['dumplings'],food,positive
+185,1828,food arrived 20 minutes called cold soggy,food,negative,"['food', 'minutes']",food,negative
+186,360,good wine choices,food,positive,"['wine', 'choices']",food,positive
+187,52,word advice save room pasta dishes never leave youve tiramisu,food,positive,"['room', 'tiramisu', 'dishes', 'advice', 'word', 'pasta']",food,positive
+188,1309,pizza delivered cold cheese wasnt even fully melted,food,negative,"['cheese', 'pizza']",food,positive
+189,941,quail fantastic unique pastas full flavor,food,positive,"['pastas', 'flavor']",food,positive
+190,2878,pastas fantastic homemade lasagna best city,food,positive,"['pastas', 'city']",food,positive
+191,193,exotic food beautifully presented delight delicious combinations,food,positive,"['food', 'combinations']",food,positive
+192,1611,recommend spot anyone enjoys fine cuisine reasonable prices,food,positive,"['spot', 'prices', 'cuisine']",price,positive
+193,2786,could drank 4 glasses water still parched watch,food,negative,"['water', 'glasses', 'watch']",ambience,negative
+194,513,average good thai food terrible delivery,food,positive,"['food', 'delivery']",food,positive
+195,1075,100 different choices create,food,positive,['choices'],price,positive
+196,2505,thick slightly soggy,food,negative,[],ambience,positive
+197,764,boyfriend ate tuna cooked perfectly,food,positive,"['tuna', 'boyfriend']",food,positive
+198,1676,new indian food try paneer roll piece heaven,food,positive,"['paneer', 'roll', 'piece']",food,positive
+199,479,ordered chu chu curry friend ordered pad thai chicken,food,neutral,[],food,positive
+200,445,mine little burnt still delicious goat cheese panchetta raddichio kind bitter though,food,conflict,[],food,positive
+201,694,love know gourmet food excellence,food,positive,['love'],food,positive
+202,2130,fried clams enough kick make em worth eating,food,positive,"['kick', 'clams']",food,positive
+203,2463,fact leaving place saw two people looking menu couldnt help telling food horrible,food,negative,"['food', 'menu', 'people', 'fact', 'place']",service,positive
+204,994,people want great food plus great service roxy place avoid,food,negative,"['people', 'food', 'place', 'service']",service,positive
+205,1779,cod paella spicy filling im big eater could eat half boyfriend classic fish chips big serving least 5 pieces fish basketful fries,food,conflict,"['eater', 'spicy', 'fish', 'pieces', 'cod', 'boyfriend', 'paella', 'chips', 'fries']",food,negative
+206,2543,three page wine menu one page entree horedevous,food,positive,"['entree', 'wine', 'page', 'menu']",food,positive
+207,951,great desserts including best cannoli ive ever offered dinner drink house,food,positive,"['cannoli', 'drink', 'house', 'dinner', 'desserts']",food,positive
+208,110,location ambience ok food makes,food,positive,"['location', 'food', 'ambience']",food,positive
+209,2750,barebecued salmon elegantly spiced dry,food,positive,['dry'],food,positive
+210,333,wine cheese plate plentiful cant wait try fondue table grilling,food,positive,"['table', 'cheese', 'grilling', 'plate', 'wine']",food,positive
+211,2819,ingredients organic real plus,food,positive,['ingredients'],food,positive
+212,2680,wine list interesting many good values,food,positive,"['wine', 'list', 'values']",food,positive
+213,748,didnt take look rest menu oysters fantastic,food,positive,"['oysters', 'look', 'menu', 'rest']",food,positive
+214,1792,wife also enjoyed spinach shanghai low mein attractions,food,positive,"['wife', 'attractions']",food,positive
+215,2268,dont go aloneeven two people isnt enough whole experience pickles selection meats seafoods,food,positive,"['meats', 'experience', 'seafoods', 'people', 'selection', 'pickles']",food,positive
+216,1370,suggestion eat family style youll want try dishes,food,neutral,"['suggestion', 'style', 'family', 'dishes']",food,positive
+217,814,plain pizza soggy creative wild mushroomthird generationfornini pizza drenched truffle oil middle making soggy nothingon rest,food,negative,"['oil', 'rest', 'nothingon', 'truffle', 'pizza']",food,positive
+218,1527,ordinary beef version cheap undercooked beef,food,negative,"['version', 'beef']",food,positive
+219,2466,dahkin also offers prix fixe lunch buffet,food,neutral,"['lunch', 'buffet']",food,positive
+220,1968,everything excellent menu quite extensive eat view sides city,food,positive,"['eat', 'menu', 'sides', 'view', 'city']",food,positive
+221,895,try sushimi cucumber roll,food,positive,['roll'],food,positive
+222,1845,consistently good japanese tapas,food,positive,['tapas'],food,positive
+223,2194,southern indian cuisine still,food,neutral,['cuisine'],food,positive
+224,1649,looking forward nice glass sangria arrived,food,positive,"['sangria', 'glass']",ambience,positive
+225,698,appetizers ok main courses decidedly subpar,food,negative,"['appetizers', 'courses']",service,positive
+226,975,specials usually quite good,food,positive,['specials'],service,positive
+227,2256,hopefully next time save room dessert,food,neutral,"['room', 'time', 'dessert']",service,positive
+228,1043,pizza delicious proprietor one nicest nyc,food,positive,[],food,positive
+229,599,vibe relaxed cozy service great food excellent,food,positive,"['food', 'vibe', 'service']",ambience,positive
+230,1109,spice great thai food love inexpensive appetizers,food,positive,"['appetizers', 'spice', 'food']",food,positive
+231,974,try crunchy tuna die,food,positive,['tuna'],food,positive
+232,1630,youre looking great meal decent price go del friscos,food,positive,"['price', 'meal']",price,positive
+233,1379,never life think could satisfied taste quantity 300 nyc,food,positive,"['quantity', 'taste', 'life']",price,positive
+234,823,food service okay,food,neutral,"['food', 'service']",food,positive
+235,31,despite slightly limited menu everything prepared done perfection ultra fresh work food art,food,conflict,"['food', 'art', 'menu', 'perfection', 'work']",food,positive
+236,37,exception lemon salad much pepper eyes started watering food decent great,food,conflict,"['food', 'lemon', 'pepper', 'exception', 'eyes']",food,positive
+237,1624,food terrific service classy attentive without overbearing,food,positive,"['food', 'service']",service,positive
+238,1467,cheap mean portions small food nasty great,food,positive,"['mean', 'food', 'portions']",food,positive
+239,1515,workers also absolutely load bagel cream cheese gets little messy,food,neutral,"['bagel', 'cheese', 'cream', 'workers']",food,positive
+240,2441,place small cramped food fantastic,food,positive,['food'],food,positive
+241,2264,plus made perfect martini,food,positive,['martini'],food,positive
+242,2573,filet mignon dish superb,food,positive,[],food,positive
+243,221,also thin gets cold quickly filling,food,negative,[],ambience,positive
+244,2539,food absolutely amazing,food,positive,['food'],food,positive
+245,478,quite frankly worst sushi ever tried,food,negative,['sushi'],food,positive
+246,145,service excellent food excellent entire experience cool,food,positive,"['food', 'experience', 'service']",service,positive
+247,1944,nobu sure great deal definitely leave feeling satisfied full,food,positive,['deal'],service,positive
+248,1485,baluchis solid food nice decor reasonable prices,food,positive,"['food', 'prices', 'decor']",price,positive
+249,1983,anyones doubt knowing enough winesplease check wine list,food,positive,"['wine', 'winesplease', 'anyones', 'list']",food,positive
+250,711,incredible food agreable price brings back every day authentic thai restaurant,food,positive,"['food', 'day', 'price', 'restaurant']",food,positive
+251,2712,lamb meat undercooked extrmely chewy,food,negative,"['meat', 'chewy', 'lamb']",food,positive
+252,2899,sure previous reviewer lonk dined saul great neighborhood great food,food,positive,"['food', 'neighborhood', 'reviewer']",food,positive
+253,2358,red curry weak tasteless pad thai stuck together lumpy rice often overcooked seafood pretty sketchy,food,negative,"['seafood', 'pad', 'rice']",food,negative
+254,26,one us actually liked expresso thats,food,conflict,[],service,positive
+255,610,mizu home creative unique rolls found anywhere else,food,positive,['rolls'],ambience,positive
+256,2245,highly spiced chai tea great,food,positive,"['chai', 'tea']",food,positive
+257,1706,authentic thai food look toons,food,positive,"['food', 'toons', 'look']",food,positive
+258,2522,steak tartare great bet fix table,food,positive,"['fix', 'steak', 'bet', 'table']",food,positive
+259,2497,authentic pakistani food,food,positive,['food'],food,positive
+260,2791,food mediocre best horrible service made vow never go back,food,neutral,"['food', 'service', 'vow']",service,positive
+261,2594,wait staff blantently unappreciative business best pie uws,food,positive,"['business', 'pie', 'staff']",service,positive
+262,847,husband enjoy sangria,food,positive,['husband'],food,positive
+263,2496,barbecued codfish gorgeously moist poached yet fabulous texture let curiously bland seasoning spice rub might overwhelmed however herb mix sauce would done much enhance,food,conflict,"['spice', 'sauce', 'mix', 'codfish', 'herb', 'seasoning', 'texture', 'rub']",food,positive
+264,283,come family pizzeria owners im almost ashamed say pizza forninos blows families receipies away,food,positive,"['pizzeria', 'forninos', 'families', 'owners', 'family', 'receipies', 'pizza']",service,positive
+265,2057,several dim sum orders 68 pieces,food,neutral,"['orders', 'pieces', 'sum']",price,negative
+266,1528,4 times always great meal,food,positive,"['meal', 'times']",food,positive
+267,441,great bagels spreads good place hang,food,positive,"['bagels', 'place']",ambience,positive
+268,2202,served free appetizer portions perfect lunch,food,positive,"['lunch', 'portions', 'appetizer']",food,positive
+269,247,quick martini bar recommend jefferys mind blowing roast chicken go village,food,positive,"['village', 'roast', 'chicken', 'jefferys', 'bar', 'martini', 'mind']",food,positive
+270,2519,buffet nice selection,food,positive,['selection'],ambience,positive
+271,1666,found food service value exceptional everytime,food,positive,"['food', 'value', 'service', 'everytime']",service,positive
+272,918,highly recommend caviar russe anyone wants delicious top grade caviar fantastic service,food,positive,"['caviar', 'service', 'grade']",service,positive
+273,1130,called mascarpone chocolate chipsgood far cry name implies,food,conflict,"['mascarpone', 'name', 'cry']",ambience,positive
+274,2269,portions small food good makes,food,conflict,['food'],food,positive
+275,1588,black white shakes came good also,food,positive,['shakes'],ambience,positive
+276,1720,place bistro means simple dishes wine served efficiently bustling atmosphere,food,positive,"['wine', 'place', 'atmosphere', 'dishes']",food,positive
+277,1996,guacamoleshrimp appetizer really great filet good didnt much like frites came filet good neither us cared,food,conflict,"['frites', 'appetizer']",service,positive
+278,2684,menu changed portions even smaller lentil dish salty beyond edibility basmati rice dish lacked flavor,food,negative,"['dish', 'portions', 'menu', 'edibility', 'flavor']",food,negative
+279,757,really though wheres seasoning,food,negative,['seasoning'],food,positive
+280,597,one best comfort food places city,food,positive,"['food', 'comfort', 'city']",food,positive
+281,2728,lobster sandwich 24 although good nearly enough warrant price,food,conflict,"['lobster', 'sandwich', 'price', 'warrant']",price,positive
+282,452,husband said portions small main course good eat portion wouldve fine,food,negative,"['husband', 'portions', 'portion', 'eat', 'course']",service,positive
+283,549,oasis refinement food though somewhat uneven often reaches pinnacles new american fine cuisine chefs passion kitchens precise execution evident fish dishes soups,food,positive,"['food', 'passion', 'pinnacles', 'oasis', 'execution', 'fish', 'dishes', 'kitchens', 'chefs', 'cuisine', 'refinement', 'soups']",food,positive
+284,2529,great eats good times,food,positive,['times'],food,positive
+285,1555,pad thai excellent well,food,positive,[],ambience,positive
+286,2314,ordered chicken casserole got small pieces chicken dark meat bone,food,negative,"['bone', 'pieces', 'chicken', 'casserole', 'meat']",food,negative
+287,2855,great service great food,food,positive,"['food', 'service']",food,positive
+288,709,duck breast special last visit incredible,food,positive,"['visit', 'breast', 'duck']",service,positive
+289,65,food expensive spent 160 lunch two extremely tasty,food,positive,"['food', 'lunch']",food,positive
+290,2504,refuse seat parties 3 weekends,service,negative,"['seat', 'parties', 'weekends']",price,negative
+291,901,moment walked accomodating even though place packed,service,positive,"['moment', 'place']",service,positive
+292,1292,conclusion culinary nightmare check given table knocking glass water,service,negative,"['check', 'conclusion', 'table', 'water', 'nightmare', 'glass']",ambience,negative
+293,347,yet paired rude service would never recommend anyone interested carrying kind conversation,service,negative,"['conversation', 'service']",service,negative
+294,2093,average good thai food terrible delivery,service,negative,"['food', 'delivery']",food,negative
+295,1414,ambience authentic relaxing always received attentive prompt service,service,positive,"['ambience', 'relaxing', 'service']",service,positive
+296,431,laughed finally offered us dessert menu left 10 percent tip generous feel,service,negative,"['dessert', 'feel', 'menu', 'tip', 'percent']",food,negative
+297,2653,group 8 well seved,service,positive,"['well', 'group']",service,positive
+298,2660,great food great lay awesome service,service,positive,"['food', 'service']",food,positive
+299,2460,great wine list italian good food service initially fine,service,conflict,"['food', 'wine', 'list', 'service']",food,positive
+300,1341,disappointment coat check girls didnt seem know customer realtively nonbusy night coat check girls,service,negative,"['check', 'coat', 'customer', 'girls', 'disappointment', 'night']",service,negative
+301,1707,super friendly knowledgable staff fabulous bistro fare wonderful jazz brunch great live jazz chilaquiles awesome,service,positive,"['jazz', 'bistro', 'staff', 'brunch', 'chilaquiles']",food,positive
+302,662,service typical shortorder dinner type,service,neutral,"['dinner', 'type', 'service']",service,positive
+303,298,first waitress completely unattentive 2 times saw herodd restaurant 6 tables got order wrong,service,negative,"['order', 'waitress', 'times', 'tables', 'restaurant']",price,negative
+304,2454,staff attentive earth,service,positive,"['earth', 'staff']",service,positive
+305,378,ive never bad service fish fresh delicious,service,positive,"['delicious', 'service', 'fish']",food,positive
+306,2889,ordered lassi asked 4 times never got,service,negative,['times'],service,negative
+307,1300,think stuff better disney,service,positive,"['disney', 'stuff']",price,positive
+308,2123,owner truly caters needs,service,positive,['owner'],service,positive
+309,2647,dessert came candle anyone asked one waiter must seen opening birthday card gift said knew special occassion sort,service,positive,"['candle', 'dessert', 'card', 'waiter', 'occassion', 'sort', 'gift', 'birthday']",service,negative
+310,1560,everything always cooked perfection service excellent decor cool understated,service,positive,"['perfection', 'service', 'decor']",ambience,positive
+311,1693,little crowded move line really fast,service,positive,"['move', 'line']",service,positive
+312,1756,great service great food,service,positive,"['food', 'service']",food,positive
+313,2237,worse 60 erroneously added 80 bill,service,negative,['bill'],price,negative
+314,1361,food amazing service prompt helpful overbearing rushed,service,positive,"['food', 'prompt', 'service']",service,positive
+315,139,emilio owner often sitting front table greeting guests come go,service,positive,"['table', 'owner', 'guests']",service,positive
+316,401,interesting selection good wines service fine fun decor,service,positive,"['wines', 'service', 'fun', 'selection', 'decor']",ambience,positive
+317,147,also dont want sit certain table dont,service,positive,['table'],price,negative
+318,574,kruno beverage manager best bartender yet come across,service,positive,"['beverage', 'manager', 'bartender']",service,positive
+319,2080,menu looked good except offering chilean sea bass server offer specials written board outside,service,negative,"['sea', 'menu', 'bass', 'server', 'specials', 'board']",service,positive
+320,1698,soon father lifted pen check chef appeared usher us,service,negative,"['pen', 'chef', 'check', 'father']",service,negative
+321,2412,service great food fantastic,service,positive,['food'],food,positive
+322,930,service slow people friendly,service,conflict,"['people', 'service']",service,positive
+323,1441,patroon features nice cigar bar great staff,service,positive,"['cigar', 'patroon', 'staff', 'bar']",ambience,positive
+324,300,although tables may closely situated candlelight foodquality service overcompensate,service,positive,"['overcompensate', 'candlelight', 'tables', 'foodquality', 'service']",service,negative
+325,215,granted space smaller best service find even largest restaurants,service,positive,"['restaurants', 'space', 'service']",service,positive
+326,491,notified didnt mention specials didnt apologize let us know made good decision regardless,service,negative,"['specials', 'decision']",service,positive
+327,484,service attentive,service,positive,['service'],service,positive
+328,1613,ive rarely problem slow staff 10 years ive going,service,positive,"['years', 'staff']",service,positive
+329,1333,conveniently delivered right door,service,positive,['door'],service,positive
+330,2532,seated waitresses great explain everything menu price food really cheap service get,service,positive,"['food', 'waitresses', 'menu', 'price', 'service']",price,positive
+331,590,wait staff freindly make feel like youre eating freindly little european town,service,positive,"['town', 'staff']",service,negative
+332,1538,took 25 minutes bring appetizer,service,negative,"['minutes', 'appetizer']",service,negative
+333,1486,regardless whether two people two hundred people ahead hostess take name tell five minutes,service,positive,"['take', 'minutes', 'hostess', 'name', 'people']",service,negative
+334,1015,even scoop nice diet much little,service,positive,['diet'],food,negative
+335,718,service excellent ac worked well thank god hot,service,positive,['service'],service,positive
+336,1359,20 minutes reservation gave us time cocktails enjoy surroundings,service,conflict,"['reservation', 'minutes', 'time', 'surroundings', 'cocktails']",service,positive
+337,2805,authentic food real service rush get sometimes try push door,service,positive,"['rush', 'food', 'door', 'service']",service,positive
+338,161,ask three times finally came back dish ive requested,service,negative,"['dish', 'times']",service,negative
+339,1704,eaten share impresses large amount people serve,service,positive,"['people', 'share', 'amount']",service,positive
+340,1519,total hipsterwannabe attitude otherwise sweet spot,service,negative,"['spot', 'hipsterwannabe', 'attitude']",food,positive
+341,1432,also ordered delivery restaurant forgot half order,service,negative,"['order', 'delivery', 'restaurant']",service,negative
+342,767,food rather good like wait,service,negative,['food'],food,positive
+343,178,reservations 9pm seated 1015pm,service,negative,"['pm', 'reservations']",service,negative
+344,2510,place correct ambience excellent staff make feel like guest friend time,service,positive,"['guest', 'time', 'ambience', 'friend', 'staff']",service,positive
+345,1791,service bit slow friendly,service,conflict,"['service', 'bit']",service,positive
+346,2125,received apology left see show without dinner,service,negative,"['dinner', 'apology', 'show']",service,negative
+347,2067,treat like family morning night,service,positive,"['night', 'family']",service,positive
+348,955,like cafe noir dont get wrong jsut people work evil incompetent,service,negative,"['people', 'cafe']",service,negative
+349,2718,table next us asked crushed grapes long overdue bottle wine finally arrived,service,negative,"['bottle', 'table', 'wine', 'grapes']",food,negative
+350,396,restaurant rather small lucky get table quickly,service,positive,"['table', 'get', 'restaurant']",service,negative
+351,558,food delicious waiter incredibly helpful attentive considering ones first hour,service,positive,"['food', 'waiter', 'hour', 'ones']",food,positive
+352,1490,great food great decor great service,service,positive,"['food', 'service', 'decor']",food,positive
+353,281,service excellent friendly attentive,service,positive,['service'],service,positive
+354,92,meal management came checked us even bought us round drinks,service,positive,"['management', 'drinks', 'meal']",food,negative
+355,1366,ambiance atmosphere great food service could lot better,service,negative,"['ambiance', 'food', 'atmosphere', 'service']",service,positive
+356,1984,went around 930 friday died bit service great,service,positive,"['service', 'bit']",service,positive
+357,2065,last memorial day tried make reservations told closed weekend interesting,service,negative,"['weekend', 'day', 'reservations']",service,negative
+358,2451,staff knowledgeable full personality,service,positive,['personality'],service,positive
+359,151,food service okay,service,neutral,"['food', 'service']",food,positive
+360,1095,service good prompt attentive nonintrusive,service,positive,"['nonintrusive', 'service']",service,positive
+361,202,service also horrible ambience great,service,negative,"['ambience', 'service']",service,positive
+362,514,kitchen however almost always slow,service,negative,['kitchen'],ambience,negative
+363,2621,3 hour brunch definitely rush kept unlimited mimosas flowing whole time,service,positive,"['hour', 'time', 'mimosas', 'brunch']",price,negative
+364,2267,disappointing food lousy service,service,negative,"['food', 'service']",service,positive
+365,64,scalina fedeli reminded service integral fine dining,service,positive,"['service', 'dining']",service,positive
+366,1234,3rd time manager remembered treated like usual customer,service,positive,"['manager', 'time', 'customer']",service,negative
+367,2643,one would think wed get apology complimentary drinks instead got snobby waiter wouldnt even take order 15 minutes gave us lip asked,service,negative,"['order', 'minutes', 'lip', 'waiter', 'apology', 'drinks']",service,negative
+368,1829,food delicious halibut special husband steak service topnotch,service,positive,"['food', 'steak', 'husband', 'topnotch', 'service']",food,positive
+369,611,service impeccable unobtrusive staff knows know menu present meal attend needs,service,positive,"['needs', 'meal', 'menu', 'staff', 'service']",service,positive
+370,562,food average service pathetic ambience,service,negative,"['ambience', 'food', 'service']",service,positive
+371,1881,wouldnt even let finish glass wine offering another,service,positive,"['wine', 'glass']",food,negative
+372,1214,hes making authentic neapolitan pizza open brick oven lightly frying zucchini blossoms hes visiting regulars growing legion checking newcomers,service,positive,"['legion', 'newcomers', 'brick', 'zucchini', 'oven', 'regulars', 'blossoms', 'pizza']",food,positive
+373,2133,offers subpar service personality,service,negative,"['personality', 'service']",service,positive
+374,665,great friendly service fast seating fast delivery excellent sushi,service,positive,"['seating', 'delivery', 'sushi', 'service']",service,positive
+375,2467,bottom line b food f service,service,negative,['service'],service,positive
+376,1847,service awfulthe last time mean last time told needed table would leave,service,negative,"['table', 'time', 'service']",service,negative
+377,120,dont toaster strange,service,negative,[],price,negative
+378,1481,staff nonsense,service,positive,"['nonsense', 'staff']",service,positive
+379,2849,showed 15 minutes tuna melt,service,negative,"['tuna', 'minutes']",food,negative
+380,338,never brought us complimentary noodles ignored repeated requests sugar threw dishes table,service,negative,"['sugar', 'dishes', 'table', 'requests', 'noodles']",food,negative
+381,953,vibe relaxed cozy service great food excellent,service,positive,"['food', 'vibe', 'service']",ambience,positive
+382,2585,italian food flavor sort surprising ues service turns nightmare attentivethey sort remind ny yankees late 90s matter bad look knew rally around corner,service,conflict,"['food', 'ues', 'rally', '90s', 'corner', 'look', 'flavor', 'nightmare', 'service']",food,negative
+383,877,cute place nice wait staff would never go,service,positive,"['wait', 'place', 'staff']",service,negative
+384,2578,food terrific service classy attentive without overbearing,service,positive,"['food', 'service']",service,positive
+385,932,everyone spoken super friendly helpful willing extra mile customer,service,positive,"['mile', 'customer']",service,positive
+386,1577,waitress awesome,service,positive,['waitress'],food,positive
+387,173,service good food wonderful,service,positive,['food'],food,positive
+388,1818,seated ignored waitstaff,service,negative,['waitstaff'],service,positive
+389,837,one front smile say get brother,service,neutral,"['brother', 'smile']",service,positive
+390,2427,hostess waitress incredibly rude everything could rush us,service,negative,"['hostess', 'waitress']",service,negative
+391,1941,upon entering greeted owners steven frederick went way gracious hosts,service,positive,"['hosts', 'owners']",service,positive
+392,2773,finally unable make gin tonic couldnt find tonic,service,negative,"['tonic', 'gin']",price,negative
+393,168,atmosphere noisy waiters literally walking around things fast,service,conflict,"['things', 'atmosphere', 'waiters']",ambience,positive
+394,140,moment enter till moment walk friendly helpful staff fantastic,service,positive,"['moment', 'staff']",service,positive
+395,2079,even overcharged last time,service,negative,['time'],service,negative
+396,1632,excuse lousy service,service,negative,['service'],service,positive
+397,2541,enjoyed food highly disappointed poor service waiter quite competent slow service lack remorse,service,negative,"['food', 'remorse', 'lack', 'waiter', 'service']",service,positive
+398,1664,raos best service atmosphere nyc,service,positive,"['atmosphere', 'service']",service,positive
+399,2082,waitstaff great attentive,service,positive,[],service,positive
+400,334,took 15 minutes put water glasses,service,negative,"['water', 'glasses', 'minutes']",price,negative
+401,433,sat got great fast service,service,positive,['service'],service,positive
+402,505,pizza wine excellentthe service toobut really made place backyard dining area,service,positive,"['backyard', 'toobut', 'area', 'dining', 'wine', 'place', 'service', 'pizza']",food,positive
+403,68,complained small tip,service,negative,['tip'],service,positive
+404,2094,food ambiance service agree previous reviews wait wait wait staff rude get looking get right,service,negative,"['food', 'reviews', 'staff', 'ambiance', 'wait', 'service']",service,negative
+405,463,service good resturant clean,service,positive,['resturant'],service,positive
+406,942,thalia beautiful restaurant beautiful people serving food doesnt quite match,service,positive,"['people', 'food', 'restaurant']",food,positive
