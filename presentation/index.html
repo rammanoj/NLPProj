@@ -1,11 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Aspect-Based Sentiment Analysis for Classifiying Yelp Reviews</title>
 
-  <title>Aspect-Based Sentiment Analysis for Classifiying Yelp Reviews</title>
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/blood.css" />
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+  </head>
 
   <link rel="stylesheet" href="dist/reset.css" />
   <link rel="stylesheet" href="dist/reveal.css" />
@@ -42,15 +51,53 @@
       <section>
         <section>Why?</section>
         <section>
-          <img src="popeyes_yelp_review.png" />
+          <section>Why?</section>
+          <section>
+            <img src="popeyes_yelp_review.png" />
+          </section>
+          <section>
+            <img src="wings_over_review.png" />
+          </section>
+          <section>
+            <img src="hilarious-yelp-reviews-1.jpeg" />
+          </section>
         </section>
+
+        <!--Our Approach-->
         <section>
-          <img src="wings_over_review.png" />
+          Our Approach<br />
+          <img src="ABSAModelDiagram.png" height="600px" />
         </section>
+        <!--Our models-->
         <section>
-          <img src="hilarious-yelp-reviews-1.jpeg" />
+          <section data-auto-animate>
+            <p>Aspect Extraction</p>
+          </section>
+          <section data-auto-animate>
+            <p style="font-size: large">Aspect Extraction</p>
+            <p data-auto-animate-delay="0.4" style="font-size: larger">BERTopic</p>
+            <div data-auto-animate-delay="0.4" class="r-hstack">
+              <ul style="font-size: 24pt;">
+                <li>Uses transformers c-TF-IDF to determine topic clusters</li>
+                <li>Here's some info about lorem ipsum</li>
+              </ul>
+              <img
+                src="ClusteringGraph.png"
+                style="margin-left: 20px"
+              />
+            </div>
+          </section>
+          <section data-auto-animate>
+            <p style="font-size: large">Aspect Extraction</p>
+            <p>Cosine Similarity</p>
+            <div>
+              <ul style="font-size: 24pt;">
+                <li>Input text is converted into sentence embedding</li>
+                <li>Cosine Similarity determines which topic text is closest to</li>
+              </ul>
+            </div>
+          </section>
         </section>
-      </section>
 
       <!--Our Approach-->
       <section>
@@ -174,24 +221,42 @@
         </section>
       </section>
 
-      <section>Thank you!</section>
-    </div>
-  </div>
+          <input id="demoInput" style="width: 300px;" /> <br /><br />
+          <a onclick="getSentiment()" style="cursor: pointer;">Submit!</a>
+        </section>
 
-  <script src="dist/reveal.js"></script>
-  <script src="plugin/notes/notes.js"></script>
-  <script src="plugin/markdown/markdown.js"></script>
-  <script src="plugin/highlight/highlight.js"></script>
-  <script>
-    // More info about initialization & config:
-    // - https://revealjs.com/initialization/
-    // - https://revealjs.com/config/
-    Reveal.initialize({
-      hash: true,
-      slideNumber: true,
-      // Learn about plugins: https://revealjs.com/plugins/
-      plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
-    });
+        <section>
+          <section data-auto-animate>
+            <p>Future Work and Improvements</p>
+          </section>
+          <section data-auto-animate>
+            <p>Future Work and Improvements</p>
+            <ul>
+              <li>Increase dataset size</li>
+              <li class="fragment">Replace domain-specific models with generic language models</li>
+              <li class="fragment">Nothing else.</li>
+            </ul>
+          </section>
+        </section>
+
+        <section>Thank you!</section>
+      </div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+        slideNumber: true,
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+      });
 
     function getSentiment() {
       const query = document.getElementById("demoInput").value;
@@ -200,8 +265,8 @@
       const url = "http://localhost:8081"; // URL of the server-side script to handle the request
       var data = JSON.stringify(query); // Data to be sent to the server
 
-      xhr.open("POST", url, true);
-      xhr.setRequestHeader("Content-Type", "application/json");
+        xhr.open("POST", url, true);
+        xhr.setRequestHeader("Content-Type", "application/json");
 
       xhr.onreadystatechange = function () {
         if (xhr.readyState === 4) {
@@ -217,10 +282,10 @@
           } else {
             console.error("Error:", xhr.status, xhr.statusText);
           }
-        }
-      };
+        };
 
       xhr.send(data);
+    }
     }
   </script>
 </body>
