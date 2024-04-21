@@ -142,6 +142,7 @@ class AspectBasedSentimentAnalysis:
         self.model = load_model('my_model.h5')
 
         # Convert labels to one-hot encoding
+        test_dataset['polarity_numeric'] = test_dataset['polarity'].map(self.polarity_mapping)
         y_test = to_categorical(test_dataset['polarity_numeric'].values, num_classes=4)
 
         # Convert tokenized sentences and aspect terms to embeddings
