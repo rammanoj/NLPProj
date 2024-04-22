@@ -31,7 +31,7 @@ def tokenize_line(line: str, ngram: int,
   """
     for p in string.punctuation:
         line = line.replace(p, '')
-    # PROVIDED
+        
     inner_pieces = None
     if by_char:
         inner_pieces = list(line)
@@ -67,7 +67,6 @@ def tokenize(data: pd.DataFrame, col: str, ngram: int,
   Returns:
     list of strings - all lines tokenized as one large list
   """
-    # PROVIDED
     total = []
     # also glue on sentence begin and end items
     for line in data[col]:
@@ -79,8 +78,6 @@ def tokenize(data: pd.DataFrame, col: str, ngram: int,
         total += tokens
     return total
 
-# final_df.sort_values(by="text", key=lambda x: x.str.len(), ascending=False)
-
 def create_ngrams(tokens: list, n: int) -> list:
     """Creates n-grams for the given token sequence.
   Args:
@@ -90,39 +87,18 @@ def create_ngrams(tokens: list, n: int) -> list:
   Returns:
     list: list of tuples of strings, each tuple being one of the individual n-grams
   """
-    # STUDENTS IMPLEMENT
     ngrams = []
     for i in range(len(tokens) + 1 - n):
         ngrams.append(tuple(tokens[i:i + n]))
     return ngrams
 
+# determines if token is special
 def is_special(token):
     return token == SENTENCE_BEGIN or token == SENTENCE_END
 
-
-"""
-filter df by food category:
-
-ngram model dict will look like:
-    (ngram tuple): {
-        positive: val
-        negative: val
-        neutral: val
-        conflict: val
-    }
-also count the number of reviews in each class to get the P(class)
-for example, the probability that 'I like sushi' is positive is
-P(positive)*(P(<s> | positive))*P(I | positive)*P(like | positive)*P(sushi | positive)*P(</s> | positive)
-^ for a unigram model
-
-probability of <s>  and </s> should be 1,
-
-
-"""
-
 class Ngram_NB:
     def __init__(self, n_gram):
-        """Initializes an untrained LanguageModel
+        """Initializes an untrained n-gram Naive Bayes Model
         Args:
           n_gram (int): the n-gram order of the language model to create
         """
@@ -136,7 +112,10 @@ class Ngram_NB:
         has tokens that are white-space separated, has one sentence per line, and
         that the sentences begin with <s> and end with </s>
         Args:
-          tokens (list): tokenized data to be trained on as a single list
+          df (pd.DataFrame): dataframe containing the text to train the model on
+          text_col (str): the column of the dataframe containing the input text
+          category_col (str): the column of the dataframe containing the aspect category
+          label_col (str): the column of the dataframe containing the sentiment
           verbose (bool): default value False, to be used to turn on/off debugging prints
         """
         # initialize class variables
@@ -156,7 +135,6 @@ class Ngram_NB:
             self.ngrams[category] = defaultdict(lambda: defaultdict(lambda: 1)) 
             category_df = df[df[category_col] == category]
             # for each row, tokenize the sentence and create ngrams
-            # THIS IS SLOW AND CAN PROBABLY BE IMPROVED
             for index, row in category_df.iterrows():
                 sent_tokens = tokenize_line(row[text_col], self.n)
                 filtered_sent_tokens = self.smooth_tokens(sent_tokens)
@@ -173,29 +151,31 @@ class Ngram_NB:
         if verbose:
             print(self.category_probabilities)
    
-    def smooth_tokens(self, tokens: list):
+    def smooth_tokens(self, tokens: list) -> list:
         """Smooths a list of tokens by replacing rare words with UNK
+         Args:
+          tokens (list): the list of tokens to be smoothed
+         Returns:
+          list: list of smoothed tokens
         """
         if not self.raw_counts:
             raise ValueError("Model not yet trained")
         return [token if is_special(token) or self.raw_counts[token] > 1 else UNK for token in tokens]
     
-    def score(self, input_string: str, category: str = 'food', verbose = False) -> float:
+    def score(self, input_string: str, category: str = 'food', verbose = False) -> tuple[str, list]:
         """Calculates the probability scores for each polarity for a given string representing a single sequence of tokens.
         Args:
-          sentence_tokens (list): a tokenized sequence to be scored by this model
-
+          input_string (str): a tokenized sequence to be scored by this model
+          category (str): the category to determine the sentiment for
+          verbose (bool): toggle debug output
         Returns:
           str: the most likely class for this string
           list: list of tuples, with each tuple containing the polarity and the corresponding
         """
-        # STUDENTS IMPLEMENT
         if not self.ngrams:
             raise ValueError("Model not yet trained")
 
-        # default category is food
-        # COULD CHANGE THIS TO DO SCORE ACROSS ALL CATEGORIES AND CHOOSE THE BEST PROBABILITY
-        
+        # default category is food        
         tokens = tokenize_line(input_string, self.n)
 
         # replace rare words with UNK
