@@ -17,23 +17,30 @@
 <body>
   <div class="reveal">
     <div class="slides">
-
       <!--Title Slide-->
       <section>
-        <div style="display: flex; align-items: center; justify-content: space-between;">
-          <img src="Yelp_Logo.svg.png" width="35%">
-          <div style="text-align: left; width: 60%;">
-            <h3>Aspect-Based Sentiment Analysis for Classifying Yelp Reviews</h3>
-            <p style="font-size:large">Anurag Arasan, Rammanoj Potla, Vaishnavee Mannivannan, Fabian Christopher</p>
+        <div style="
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+            ">
+          <img src="Yelp_Logo.svg.png" width="35%" />
+          <div style="text-align: left; width: 60%">
+            <h3>
+              Aspect-Based Sentiment Analysis for Classifying Yelp Reviews
+            </h3>
+            <p>Team 24</p>
+            <p style="font-size: large">
+              Anurag Arasan, Rammanoj Potla, Vaishnavee Mannivannan, Fabian
+              Christopher
+            </p>
           </div>
         </div>
       </section>
 
       <!--Explain the issue-->
       <section>
-        <section>
-          Why?
-        </section>
+        <section>Why?</section>
         <section>
           <img src="popeyes_yelp_review.png" />
         </section>
@@ -45,28 +52,126 @@
         </section>
       </section>
 
-      <!--Our models-->
+      <!--Our Approach-->
       <section>
-        Our models
+        Our Approach<br />
+        <img src="ABSAModelDiagram.png" height="600px" />
       </section>
 
-      <!--Our Results-->
       <section>
-        Results
+        Our Data
+        <ul style="font-size: large;">
+          <li>Initially tried Yelp dataset with over 200,000 reviews, but the dataset did not have labelled sentiments</li>
+          <li>Opted for SemEval 2014 restaurant dataset, which contains 3500 restaurant reviews labelled with aspect categories and sentiments</li>
+        <ul>
+          <li>Small dataset heavily skewed toward positive reviews</li>
+        </ul>
+        </ul>
+      </section>
+      <!--Our models-->
+      <section>
+        <section data-auto-animate>
+          <p>Aspect Extraction</p>
+        </section>
+        <section data-auto-animate>
+          <p style="font-size: large">Aspect Extraction</p>
+          <p data-auto-animate-delay="0.4" style="font-size: larger">BERTopic</p>
+          <p style="font-size: large;">Uses transformers c-TF-IDF to determine topic clusters</p>
+          <img src="ClusteringGraph.png" height="300px" />
+        </section>
+        <section data-auto-animate>
+          <p style="font-size: large">Aspect Extraction</p>
+          <p style="font-size: larger">BERTopic</p>
+          <p style="font-size: large;">Uses transformers c-TF-IDF to determine topic clusters</p>
+          <img src="ClusteringGraph.png" height="300px" />
+          <p>Final Aspects: food, price, ambience, service</p>
+        </section>
+        <!-- <section data-auto-animate> 
+          <p style="font-size: large">Aspect Extraction</p>
+          <p>Cosine Similarity</p>
+          <div>
+            <ul style="font-size: 24pt;">
+              <li>Input text is converted into sentence embedding</li>
+              <li>Cosine Similarity determines which topic text is closest to</li>
+            </ul>
+          </div>
+        </section> -->
+      </section>
+
+      <!--Our Models-->
+      <section data-auto-animate>
+        <section data-auto-animate>
+          <p style="font-size: larger">Domain-Specific Language Models</p>
+        </section>
+        <section data-auto-animate>
+          <p style="font-size: large">Domain-Specific Language Models</p>
+          <p>Logistic Regression</p>
+          <ul style="font-size: large">
+            <li>SKLearn's implementation</li>
+            <li>Easy setup made it a good choice for initial testing</li>
+          </ul>
+        </section>
+        <section data-auto-animate>
+          <p style="font-size: large">Domain-Specific Language Models</p>
+          <p>Naive Bayes</p>
+          <ul style="font-size: large">
+            <li>Experimented with n-grams, but unigram performed the best</li>
+            <li>Baseline model that was quick to implement</li>
+          </ul>
+        </section>
+        <section data-auto-animate>
+          <p style="font-size: large">Domain-Specific Language Models</p>
+          <p>LSTM</p>
+          <ul style="font-size: large">
+            <li>Initially attempted bidirectional LSTM with attention layers</li>
+            <li>Attempted to improve performace using techniques derived from ATAE LSTM, but test accuracy was ~60%</li>
+          </ul>
+        </section>
+        <section data-auto-animate>
+          <p style="font-size: large">Domain-Specific Language Models</p>
+          <p>BERT Base Uncased</p>
+          <ul style="font-size: large">
+            <li>Finetuned on restaurant-specific data</li>
+            <li>Experimented with various hyperparameters and number of epochs</li>
+            <li>Performed reasonably well, but suffered from a lack of data</li>
+          </ul>
+        </section>
+        <!-- <section data-auto-animate>
+          <p style="font-size: large">Domain-Specific Language Models</p>
+          <p>Naive Bayes</p>
+          <ul style="font-size: large">
+            <li>Experimented with n-grams, but unigram performed the best</li>
+            <li>Baseline model that was quick to implement</li>
+          </ul>
+        </section> -->
+        <!-- <div>
+            
+        </div> -->
       </section>
 
       <!--Demo-->
       <section>
-        <!--TODO add options for models-->
         <p>Let's try it!</p>
 
-        <input id="demoInput" />
-        <br>
-        <button onclick="getSentiment()">Submit!</button>
+        <input id="demoInput" style="width: 300px;" /> <br /><br />
+        <a onclick="getSentiment()" style="cursor: pointer;">Submit!</a>
+        <div style="font-size: large;" id="predictedAspect"></div>
+        <div style="font-size: large;" id="predictedNgramSentiment"></div>
+        <div style="font-size: large;" id="predictedLSTMSentiment"></div>
+        <div style="font-size: large;" id="predictedBERTSentiment"></div>
       </section>
 
       <section>
-        Future Work and Improvements
+        <section data-auto-animate>
+          <p>Future Work and Improvements</p>
+        </section>
+        <section data-auto-animate>
+          <p>Future Work and Improvements</p>
+          <ul style="font-size: large;">
+            <li>Increase dataset size or implement Few Shot Learning</li>
+            <li class="fragment">Research other language models to expand potential use cases</li>
+          </ul>
+        </section>
       </section>
 
       <section>Thank you!</section>
@@ -89,19 +194,26 @@
     });
 
     function getSentiment() {
-      const query = document.getElementById('demoInput').value
+      const query = document.getElementById("demoInput").value;
+      console.log(query)
       const xhr = new XMLHttpRequest();
       const url = "http://localhost:8081"; // URL of the server-side script to handle the request
-      var data = JSON.stringify({ name: "John", age: 30 }); // Data to be sent to the server
+      var data = JSON.stringify(query); // Data to be sent to the server
 
       xhr.open("POST", url, true);
       xhr.setRequestHeader("Content-Type", "application/json");
 
       xhr.onreadystatechange = function () {
-        if (xhr.readyState === 4) { // When the request is complete
-          if (xhr.status === 200) { // If the request is successful
+        if (xhr.readyState === 4) {
+          // When the request is complete
+          if (xhr.status === 200) {
+            // If the request is successful
             console.log("Response from server:", xhr.responseText);
-            document.getElementById("response").textContent = xhr.responseText; // Displaying the response on the webpage
+            const jsonResponse = JSON.parse(xhr.responseText)
+            document.getElementById("predictedAspect").textContent = "Predicted Aspect: " + jsonResponse.data.aspect 
+            document.getElementById("predictedNgramSentiment").textContent = "N-Gram NB Predicted Sentiment: " + jsonResponse.data.ngram_sentiment[0]; // Displaying the response on the webpage
+            document.getElementById("predictedLSTMSentiment").textContent = "LSTM Predicted Sentiment: " + jsonResponse.data.lstm_sentiment;
+            document.getElementById("predictedBERTSentiment").textContent = "BERT Predicted Sentiment: " + jsonResponse.data.bert_sentiment;
           } else {
             console.error("Error:", xhr.status, xhr.statusText);
           }
