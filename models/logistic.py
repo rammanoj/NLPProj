@@ -36,11 +36,15 @@ class Logistic:
         y_true = np.array([self.aspect_numb[i] for i in list(test_data.polarity)])
         y_pred =self.model.predict(X_test)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5fd132b (Complete pynb file)
         label_map = {0: 'negative', 1: 'positive', 2: 'neutral', 3: 'conflict'}
 
         # get classification report
         out_data = test_data.copy(deep=True)
         out_data['y_pred'] = [label_map[label] for label in y_pred]
+<<<<<<< HEAD
         return out_data, classification_report(y_true, y_pred)
 =======
 
@@ -54,3 +58,6 @@ class Logistic:
         out_data['y_pred'] = y_pred
         return out_data, classification_report(y_true, y_pred)
 >>>>>>> b78bd30 (save out files to csv)
+=======
+        return out_data, classification_report(y_true, y_pred)
+>>>>>>> 5fd132b (Complete pynb file)

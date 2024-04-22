@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5fd132b (Complete pynb file)
 import pandas as pd
 import nltk
 from nltk.corpus import stopwords
@@ -180,6 +183,7 @@ class AspectBasedSentimentAnalysis:
         # Add the predicted labels to the DataFrame
         test_dataset['predicted_polarity'] = y_pred
         
+<<<<<<< HEAD
 =======
 import pandas as pd
 import nltk
@@ -351,4 +355,6 @@ class AspectBasedSentimentAnalysis:
         test_dataset['predicted_polarity'] = y_pred
         
 >>>>>>> e1d4cc2 (Lstm code refactored into py and ipynb.)
+=======
+>>>>>>> 5fd132b (Complete pynb file)
         return test_dataset, loss, accuracy
