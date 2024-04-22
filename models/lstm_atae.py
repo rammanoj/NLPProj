@@ -42,16 +42,10 @@ class AspectBasedSentimentAnalysis:
         self.word2vec_model = None
         self.polarity_mapping = {'positive': 0, 'negative': 1, 'neutral': 2, 'conflict': 3}
 
-    def train(self, df):
-        # unique categories
-        unique_categories = df['polarity'].unique()
-
+    def train_word2vec(self, df):
         # List of terms
         sentence = df['input_text'].tolist()
         aspect = df['aspect'].tolist()
-
-        # Pair sentences with their corresponding aspect terms
-        sentence_aspect_pairs = list(zip(sentence, aspect))
 
         # Tokenize sentences
         nltk.download('punkt')
@@ -59,7 +53,7 @@ class AspectBasedSentimentAnalysis:
         # Combine sentences and aspect terms
         filtered_sentence_tokens = [word_tokenize(sentence.lower()) for sentence in sentence]
         aspect_tokens = [word_tokenize(item.lower()) for item in aspect]
-        all_tokens = filtered_sentence_tokens + filtered_sentence_tokens
+        all_tokens = filtered_sentence_tokens + aspect_tokens
 
         # Initialize the Word2Vec model
         model = Word2Vec(
@@ -80,13 +74,31 @@ class AspectBasedSentimentAnalysis:
         model.save("word2vec.model")
         print("Word2Vec model trained and saved.")
 
+    def train(self, df):
+        # unique categories
+        unique_categories = df['polarity'].unique()
+
+        # List of terms
+        sentence = df['input_text'].tolist()
+        aspect = df['aspect'].tolist()
+
+        # Pair sentences with their corresponding aspect terms
+        sentence_aspect_pairs = list(zip(sentence, aspect))
+
+        # Tokenize sentences
+        nltk.download('punkt')
+
+        # Combine sentences and aspect terms
+        filtered_sentence_tokens = [word_tokenize(sentence.lower()) for sentence in sentence]
+        aspect_tokens = [word_tokenize(item.lower()) for item in aspect]
+        
         # Load Word2Vec model
         model_file = 'word2vec.model'  # Replace with your model file path
         self.word2vec_model = Word2Vec.load(model_file)
 
         # Convert tokenized sentences and aspect terms to embeddings
-        sentence_embeddings = np.array([np.mean([model.wv[token] for token in sentence], axis=0) for sentence in filtered_sentence_tokens])
-        category_embeddings = np.array([np.mean([model.wv[token] for token in aspect], axis=0) for aspect in aspect_tokens])
+        sentence_embeddings = np.array([np.mean([self.word2vec_model.wv[token] for token in sentence], axis=0) for sentence in filtered_sentence_tokens])
+        category_embeddings = np.array([np.mean([self.word2vec_model.wv[token] for token in aspect], axis=0) for aspect in aspect_tokens])
 
         # Assuming you have a DataFrame 'df' with a column 'polarity'
         df['polarity_numeric'] = df['polarity'].map(self.polarity_mapping)
