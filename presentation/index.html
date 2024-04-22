@@ -1,26 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
-    />
 
-    <title>Aspect-Based Sentiment Analysis for Classifiying Yelp Reviews</title>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-    <link rel="stylesheet" href="dist/reset.css" />
-    <link rel="stylesheet" href="dist/reveal.css" />
-    <link rel="stylesheet" href="dist/theme/blood.css" />
-    <!-- Theme used for syntax highlighted code -->
-    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
-  </head>
+  <title>Aspect-Based Sentiment Analysis for Classifiying Yelp Reviews</title>
 
   <link rel="stylesheet" href="dist/reset.css" />
   <link rel="stylesheet" href="dist/reveal.css" />
   <link rel="stylesheet" href="dist/theme/blood.css" />
   <!-- Theme used for syntax highlighted code -->
   <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+</head>
+
+<link rel="stylesheet" href="dist/reset.css" />
+<link rel="stylesheet" href="dist/reveal.css" />
+<link rel="stylesheet" href="dist/theme/blood.css" />
+<!-- Theme used for syntax highlighted code -->
+<link rel="stylesheet" href="plugin/highlight/monokai.css" />
 </head>
 
 <body>
@@ -81,10 +79,7 @@
                 <li>Uses transformers c-TF-IDF to determine topic clusters</li>
                 <li>Here's some info about lorem ipsum</li>
               </ul>
-              <img
-                src="ClusteringGraph.png"
-                style="margin-left: 20px"
-              />
+              <img src="ClusteringGraph.png" style="margin-left: 20px" />
             </div>
           </section>
           <section data-auto-animate>
@@ -99,41 +94,43 @@
           </section>
         </section>
 
-      <!--Our Approach-->
-      <section>
-        Our Approach<br />
-        <img src="ABSAModelDiagram.png" height="600px" />
-      </section>
+        <!--Our Approach-->
+        <section>
+          Our Approach<br />
+          <img src="ABSAModelDiagram.png" height="600px" />
+        </section>
 
-      <section>
-        Our Data
-        <ul style="font-size: large;">
-          <li>Initially tried Yelp dataset with over 200,000 reviews, but the dataset did not have labelled sentiments</li>
-          <li>Opted for SemEval 2014 restaurant dataset, which contains 3500 restaurant reviews labelled with aspect categories and sentiments</li>
-        <ul>
-          <li>Small dataset heavily skewed toward positive reviews</li>
-        </ul>
-        </ul>
-      </section>
-      <!--Our models-->
-      <section>
-        <section data-auto-animate>
-          <p>Aspect Extraction</p>
+        <section>
+          Our Data
+          <ul style="font-size: large;">
+            <li>Initially tried Yelp dataset with over 200,000 reviews, but the dataset did not have labelled sentiments
+            </li>
+            <li>Opted for SemEval 2014 restaurant dataset, which contains 3500 restaurant reviews labelled with aspect
+              categories and sentiments</li>
+            <ul>
+              <li>Small dataset heavily skewed toward positive reviews</li>
+            </ul>
+          </ul>
         </section>
-        <section data-auto-animate>
-          <p style="font-size: large">Aspect Extraction</p>
-          <p data-auto-animate-delay="0.4" style="font-size: larger">BERTopic</p>
-          <p style="font-size: large;">Uses transformers c-TF-IDF to determine topic clusters</p>
-          <img src="ClusteringGraph.png" height="300px" />
-        </section>
-        <section data-auto-animate>
-          <p style="font-size: large">Aspect Extraction</p>
-          <p style="font-size: larger">BERTopic</p>
-          <p style="font-size: large;">Uses transformers c-TF-IDF to determine topic clusters</p>
-          <img src="ClusteringGraph.png" height="300px" />
-          <p>Final Aspects: food, price, ambience, service</p>
-        </section>
-        <!-- <section data-auto-animate> 
+        <!--Our models-->
+        <section>
+          <section data-auto-animate>
+            <p>Aspect Extraction</p>
+          </section>
+          <section data-auto-animate>
+            <p style="font-size: large">Aspect Extraction</p>
+            <p data-auto-animate-delay="0.4" style="font-size: larger">BERTopic</p>
+            <p style="font-size: large;">Uses transformers c-TF-IDF to determine topic clusters</p>
+            <img src="ClusteringGraph.png" height="300px" />
+          </section>
+          <section data-auto-animate>
+            <p style="font-size: large">Aspect Extraction</p>
+            <p style="font-size: larger">BERTopic</p>
+            <p style="font-size: large;">Uses transformers c-TF-IDF to determine topic clusters</p>
+            <img src="ClusteringGraph.png" height="300px" />
+            <p>Final Aspects: food, price, ambience, service</p>
+          </section>
+          <!-- <section data-auto-animate> 
           <p style="font-size: large">Aspect Extraction</p>
           <p>Cosine Similarity</p>
           <div>
@@ -143,47 +140,48 @@
             </ul>
           </div>
         </section> -->
-      </section>
+        </section>
 
-      <!--Our Models-->
-      <section data-auto-animate>
+        <!--Our Models-->
         <section data-auto-animate>
-          <p style="font-size: larger">Domain-Specific Language Models</p>
-        </section>
-        <section data-auto-animate>
-          <p style="font-size: large">Domain-Specific Language Models</p>
-          <p>Logistic Regression</p>
-          <ul style="font-size: large">
-            <li>SKLearn's implementation</li>
-            <li>Easy setup made it a good choice for initial testing</li>
-          </ul>
-        </section>
-        <section data-auto-animate>
-          <p style="font-size: large">Domain-Specific Language Models</p>
-          <p>Naive Bayes</p>
-          <ul style="font-size: large">
-            <li>Experimented with n-grams, but unigram performed the best</li>
-            <li>Baseline model that was quick to implement</li>
-          </ul>
-        </section>
-        <section data-auto-animate>
-          <p style="font-size: large">Domain-Specific Language Models</p>
-          <p>LSTM</p>
-          <ul style="font-size: large">
-            <li>Initially attempted bidirectional LSTM with attention layers</li>
-            <li>Attempted to improve performace using techniques derived from ATAE LSTM, but test accuracy was ~60%</li>
-          </ul>
-        </section>
-        <section data-auto-animate>
-          <p style="font-size: large">Domain-Specific Language Models</p>
-          <p>BERT Base Uncased</p>
-          <ul style="font-size: large">
-            <li>Finetuned on restaurant-specific data</li>
-            <li>Experimented with various hyperparameters and number of epochs</li>
-            <li>Performed reasonably well, but suffered from a lack of data</li>
-          </ul>
-        </section>
-        <!-- <section data-auto-animate>
+          <section data-auto-animate>
+            <p style="font-size: larger">Domain-Specific Language Models</p>
+          </section>
+          <section data-auto-animate>
+            <p style="font-size: large">Domain-Specific Language Models</p>
+            <p>Logistic Regression</p>
+            <ul style="font-size: large">
+              <li>SKLearn's implementation</li>
+              <li>Easy setup made it a good choice for initial testing</li>
+            </ul>
+          </section>
+          <section data-auto-animate>
+            <p style="font-size: large">Domain-Specific Language Models</p>
+            <p>Naive Bayes</p>
+            <ul style="font-size: large">
+              <li>Experimented with n-grams, but unigram performed the best</li>
+              <li>Baseline model that was quick to implement</li>
+            </ul>
+          </section>
+          <section data-auto-animate>
+            <p style="font-size: large">Domain-Specific Language Models</p>
+            <p>LSTM</p>
+            <ul style="font-size: large">
+              <li>Initially attempted bidirectional LSTM with attention layers</li>
+              <li>Attempted to improve performace using techniques derived from ATAE LSTM, but test accuracy was ~60%
+              </li>
+            </ul>
+          </section>
+          <section data-auto-animate>
+            <p style="font-size: large">Domain-Specific Language Models</p>
+            <p>BERT Base Uncased</p>
+            <ul style="font-size: large">
+              <li>Finetuned on restaurant-specific data</li>
+              <li>Experimented with various hyperparameters and number of epochs</li>
+              <li>Performed reasonably well, but suffered from a lack of data</li>
+            </ul>
+          </section>
+          <!-- <section data-auto-animate>
           <p style="font-size: large">Domain-Specific Language Models</p>
           <p>Naive Bayes</p>
           <ul style="font-size: large">
@@ -191,38 +189,21 @@
             <li>Baseline model that was quick to implement</li>
           </ul>
         </section> -->
-        <!-- <div>
+          <!-- <div>
             
         </div> -->
-      </section>
-
-      <!--Demo-->
-      <section>
-        <p>Let's try it!</p>
-
-        <input id="demoInput" style="width: 300px;" /> <br /><br />
-        <a onclick="getSentiment()" style="cursor: pointer;">Submit!</a>
-        <div style="font-size: large;" id="predictedAspect"></div>
-        <div style="font-size: large;" id="predictedNgramSentiment"></div>
-        <div style="font-size: large;" id="predictedLSTMSentiment"></div>
-        <div style="font-size: large;" id="predictedBERTSentiment"></div>
-      </section>
-
-      <section>
-        <section data-auto-animate>
-          <p>Future Work and Improvements</p>
         </section>
-        <section data-auto-animate>
-          <p>Future Work and Improvements</p>
-          <ul style="font-size: large;">
-            <li>Increase dataset size or implement Few Shot Learning</li>
-            <li class="fragment">Research other language models to expand potential use cases</li>
-          </ul>
-        </section>
-      </section>
+
+        <!--Demo-->
+        <section>
+          <p>Let's try it!</p>
 
           <input id="demoInput" style="width: 300px;" /> <br /><br />
           <a onclick="getSentiment()" style="cursor: pointer;">Submit!</a>
+          <div style="font-size: large;" id="predictedAspect"></div>
+          <div style="font-size: large;" id="predictedNgramSentiment"></div>
+          <div style="font-size: large;" id="predictedLSTMSentiment"></div>
+          <div style="font-size: large;" id="predictedBERTSentiment"></div>
         </section>
 
         <section>
@@ -231,32 +212,49 @@
           </section>
           <section data-auto-animate>
             <p>Future Work and Improvements</p>
-            <ul>
-              <li>Increase dataset size</li>
-              <li class="fragment">Replace domain-specific models with generic language models</li>
-              <li class="fragment">Nothing else.</li>
+            <ul style="font-size: large;">
+              <li>Increase dataset size or implement Few Shot Learning</li>
+              <li class="fragment">Research other language models to expand potential use cases</li>
             </ul>
           </section>
         </section>
 
-        <section>Thank you!</section>
-      </div>
-    </div>
+        <input id="demoInput" style="width: 300px;" /> <br /><br />
+        <a onclick="getSentiment()" style="cursor: pointer;">Submit!</a>
+      </section>
 
-    <script src="dist/reveal.js"></script>
-    <script src="plugin/notes/notes.js"></script>
-    <script src="plugin/markdown/markdown.js"></script>
-    <script src="plugin/highlight/highlight.js"></script>
-    <script>
-      // More info about initialization & config:
-      // - https://revealjs.com/initialization/
-      // - https://revealjs.com/config/
-      Reveal.initialize({
-        hash: true,
-        slideNumber: true,
-        // Learn about plugins: https://revealjs.com/plugins/
-        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
-      });
+      <section>
+        <section data-auto-animate>
+          <p>Future Work and Improvements</p>
+        </section>
+        <section data-auto-animate>
+          <p>Future Work and Improvements</p>
+          <ul>
+            <li>Increase dataset size</li>
+            <li class="fragment">Replace domain-specific models with generic language models</li>
+            <li class="fragment">Nothing else.</li>
+          </ul>
+        </section>
+      </section>
+
+      <section>Thank you!</section>
+    </div>
+  </div>
+
+  <script src="dist/reveal.js"></script>
+  <script src="plugin/notes/notes.js"></script>
+  <script src="plugin/markdown/markdown.js"></script>
+  <script src="plugin/highlight/highlight.js"></script>
+  <script>
+    // More info about initialization & config:
+    // - https://revealjs.com/initialization/
+    // - https://revealjs.com/config/
+    Reveal.initialize({
+      hash: true,
+      slideNumber: true,
+      // Learn about plugins: https://revealjs.com/plugins/
+      plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+    });
 
     function getSentiment() {
       const query = document.getElementById("demoInput").value;
@@ -265,8 +263,8 @@
       const url = "http://localhost:8081"; // URL of the server-side script to handle the request
       var data = JSON.stringify(query); // Data to be sent to the server
 
-        xhr.open("POST", url, true);
-        xhr.setRequestHeader("Content-Type", "application/json");
+      xhr.open("POST", url, true);
+      xhr.setRequestHeader("Content-Type", "application/json");
 
       xhr.onreadystatechange = function () {
         if (xhr.readyState === 4) {
@@ -275,7 +273,7 @@
             // If the request is successful
             console.log("Response from server:", xhr.responseText);
             const jsonResponse = JSON.parse(xhr.responseText)
-            document.getElementById("predictedAspect").textContent = "Predicted Aspect: " + jsonResponse.data.aspect 
+            document.getElementById("predictedAspect").textContent = "Predicted Aspect: " + jsonResponse.data.aspect
             document.getElementById("predictedNgramSentiment").textContent = "N-Gram NB Predicted Sentiment: " + jsonResponse.data.ngram_sentiment[0]; // Displaying the response on the webpage
             document.getElementById("predictedLSTMSentiment").textContent = "LSTM Predicted Sentiment: " + jsonResponse.data.lstm_sentiment;
             document.getElementById("predictedBERTSentiment").textContent = "BERT Predicted Sentiment: " + jsonResponse.data.bert_sentiment;
@@ -284,8 +282,8 @@
           }
         };
 
-      xhr.send(data);
-    }
+        xhr.send(data);
+      }
     }
   </script>
 </body>

@@ -37,6 +37,7 @@ class Logistic:
         y_pred =self.model.predict(X_test)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd132b (Complete pynb file)
         label_map = {0: 'negative', 1: 'positive', 2: 'neutral', 3: 'conflict'}
@@ -47,6 +48,8 @@ class Logistic:
 <<<<<<< HEAD
         return out_data, classification_report(y_true, y_pred)
 =======
+=======
+>>>>>>> 2f18a90 (fixed up merge conflict)
 
 <<<<<<< HEAD
         # # get classification report
@@ -56,8 +59,12 @@ class Logistic:
         # get classification report
         out_data = test_data.copy(deep=True)
         out_data['y_pred'] = y_pred
+<<<<<<< HEAD
         return out_data, classification_report(y_true, y_pred)
 >>>>>>> b78bd30 (save out files to csv)
 =======
         return out_data, classification_report(y_true, y_pred)
 >>>>>>> 5fd132b (Complete pynb file)
+=======
+        return out_data, classification_report(y_true, y_pred)
+>>>>>>> 2f18a90 (fixed up merge conflict)
