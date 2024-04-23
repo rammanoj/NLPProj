@@ -1,4 +1,4 @@
-# THE TOKENIZATION CODE IS DERIVED FROM "HW2 - ngram language models"
+# NOTE: THIS FILE CONTAINS CODE FROM "HW2 - ngram language models", SPECIFICALLY THE FUNCTIONS RELATING TO TOKENIZATION
 import pandas as pd
 import nltk
 import string
@@ -32,7 +32,7 @@ def tokenize_line(line: str, ngram: int,
   """
     for p in string.punctuation:
         line = line.replace(p, '')
-        
+    # PROVIDED
     inner_pieces = None
     if by_char:
         inner_pieces = list(line)
@@ -88,12 +88,12 @@ def create_ngrams(tokens: list, n: int) -> list:
   Returns:
     list: list of tuples of strings, each tuple being one of the individual n-grams
   """
+    # STUDENTS IMPLEMENT
     ngrams = []
     for i in range(len(tokens) + 1 - n):
         ngrams.append(tuple(tokens[i:i + n]))
     return ngrams
 
-# determines if token is special
 def is_special(token):
     return token == SENTENCE_BEGIN or token == SENTENCE_END
 
@@ -108,7 +108,7 @@ class Ngram_NB:
         self.ngrams = None
         self.raw_vocab = None
         
-    def train(self, df, text_col="text", category_col="category", label_col = "polarity", verbose: bool = False) -> None:
+    def train(self, df, text_col="text", category_col="category", label_col = "polarity", verbose: bool = False)  -> None:
         """Trains the language model on the given data. Assumes that the given data
         has tokens that are white-space separated, has one sentence per line, and
         that the sentences begin with <s> and end with </s>
@@ -136,6 +136,7 @@ class Ngram_NB:
             self.ngrams[category] = defaultdict(lambda: defaultdict(lambda: 1)) 
             category_df = df[df[category_col] == category]
             # for each row, tokenize the sentence and create ngrams
+            # THIS IS SLOW AND CAN PROBABLY BE IMPROVED
             for index, row in category_df.iterrows():
                 sent_tokens = tokenize_line(row[text_col], self.n)
                 filtered_sent_tokens = self.smooth_tokens(sent_tokens)
@@ -176,7 +177,8 @@ class Ngram_NB:
         if not self.ngrams:
             raise ValueError("Model not yet trained")
 
-        # default category is food        
+        # default category is food
+        # COULD CHANGE THIS TO DO SCORE ACROSS ALL CATEGORIES AND CHOOSE THE BEST PROBABILITY
         tokens = tokenize_line(input_string, self.n)
 
         # replace rare words with UNK
@@ -211,4 +213,4 @@ class Ngram_NB:
             scores[polarity] = score
         label = max(scores, key=scores.get)
         return label, scores
-    
+  
