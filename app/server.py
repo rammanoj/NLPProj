@@ -1,9 +1,6 @@
 import http.server
 import socketserver
 import json
-<<<<<<< HEAD
-<<<<<<< HEAD
-import pickle
 import cosine_similarity
 from ngram_nb import Ngram_NB
 # from bert_uncased import BERTUncased
@@ -16,14 +13,14 @@ PORT = 8081
 from transformers import BertForSequenceClassification, BertTokenizer
 
 # Initialize the BERT model architecture
-model = BertForSequenceClassification.from_pretrained('bert-base-uncased', num_labels=4)
+# model = BertForSequenceClassification.from_pretrained('bert-base-uncased', num_labels=4)
 
 # Load the saved model state
-model.load_state_dict(torch.load("bert_uncase.pth"))
+# model.load_state_dict(torch.load("bert_uncase.pth"))
 
-model.eval()
+# model.eval()
 
-tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
+# tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
 
 #other models
 ngram_model = Ngram_NB(1)
@@ -38,6 +35,7 @@ lstm_model.train(df)
 print("Models trained!")
 
 label_map = {0: 'negative', 1: 'positive', 2: 'neutral', 3: 'conflict'}
+
 class MyHandler(http.server.BaseHTTPRequestHandler):
     def do_OPTIONS(self):
         self.send_response(200)
@@ -46,86 +44,25 @@ class MyHandler(http.server.BaseHTTPRequestHandler):
         self.send_header('Access-Control-Allow-Headers', 'Content-Type')
         self.end_headers()
 
-=======
-=======
-import pickle
->>>>>>> aa4915b (Modified slides, started demo interface)
-
-PORT = 8081
-
-model_file = "fill this in!"
-trained_model = pickle.load(model_file)
-
-class MyHandler(http.server.BaseHTTPRequestHandler):
-<<<<<<< HEAD
->>>>>>> 9609b04 (added more presentation stuff)
-=======
-    def do_OPTIONS(self):
-        self.send_response(200)
-        self.send_header('Access-Control-Allow-Origin', 'http://localhost:8000')
-        self.send_header('Access-Control-Allow-Methods', 'POST, OPTIONS')
-        self.send_header('Access-Control-Allow-Headers', 'Content-Type')
-        self.end_headers()
-
->>>>>>> aa4915b (Modified slides, started demo interface)
     def do_POST(self):
         content_length = int(self.headers['Content-Length'])
         post_data = self.rfile.read(content_length)
         post_data = post_data.decode('utf-8')
-        print("THIS IS THE DATA")
-        print(post_data)
         predicted_aspect = cosine_similarity.predict_aspect(post_data)
         ngram_sentiment = ngram_model.score(post_data, predicted_aspect)
         input_df = pd.DataFrame({'input_text':post_data, 'aspect': predicted_aspect, 'polarity': "positive", 'index': [0]})
-        print(input_df)
         lstm_sentiment, _, _ = lstm_model.test(input_df)
         lstm_sentiment = list(lstm_sentiment["predicted_polarity"])[0]
-        print(lstm_sentiment)
         self.send_response(200)
         self.send_header('Content-type', 'application/json')
-<<<<<<< HEAD
-<<<<<<< HEAD
         self.send_header('Access-Control-Allow-Origin', 'http://localhost:8000')
-=======
->>>>>>> 9609b04 (added more presentation stuff)
-=======
-        self.send_header('Access-Control-Allow-Origin', 'http://localhost:8000')
->>>>>>> aa4915b (Modified slides, started demo interface)
         self.end_headers()
-
-        encoding = tokenizer(post_data, predicted_aspect,
-                     return_tensors='pt',
-                     max_length=128,
-                     truncation=True,
-                     padding='max_length')
-
-        outputs = model(input_ids=encoding['input_ids'],
-                        attention_mask=encoding['attention_mask'])
-        
-        
-        # Get predicted probabilities
-        probs = torch.softmax(outputs.logits, dim=1)
-
-        # Get predicted label
-        predicted_label = torch.argmax(probs, dim=1).item()
-
-        print("Predicted probability:", probs)
-        print("Predicted label:", predicted_label)
-
         response_data = {'message': 'Received POST request', 'data': {"aspect": predicted_aspect, 
                                                                       "ngram_sentiment": ngram_sentiment, 
-                                                                      "lstm_sentiment": lstm_sentiment,
-                                                                      "bert_sentiment": label_map[predicted_label]}} #, }}
+                                                                      "lstm_sentiment": lstm_sentiment}}
+                                                                #       "bert_sentiment": label_map[predicted_label]}} 
         self.wfile.write(json.dumps(response_data).encode('utf-8'))
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
->>>>>>> 9609b04 (added more presentation stuff)
-=======
-
->>>>>>> aa4915b (Modified slides, started demo interface)
 Handler = MyHandler
 with socketserver.TCPServer(("", PORT), Handler) as httpd:
     print("Server started at port", PORT)
